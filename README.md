@@ -10,10 +10,11 @@ This repository answers one question each morning: **what useful technical conce
 | Field | Value |
 |---|---|
 | Day | **1** |
-| Topic | **REST vs GraphQL vs SOAP** |
+| Topic | **[REST vs GraphQL vs SOAP](learning/2026-08-13-rest-vs-graphql-vs-soap.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Status | Ready for the first automated run |
+| Curriculum position | 1 of 110 |
+| Next | HTTP methods and idempotency |
 
 ### Focus
 
@@ -22,6 +23,8 @@ Compare resource-oriented REST, query-driven GraphQL, and contract-heavy SOAP. U
 ### Practical task
 
 Design the same movie-search operation using REST, GraphQL, and SOAP. Explain when each option makes sense.
+
+[Open today's complete lesson →](learning/2026-08-13-rest-vs-graphql-vs-soap.md)
 
 <!-- DAILY_LEARNING:END -->
 
