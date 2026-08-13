@@ -1,44 +1,77 @@
-# Eric's Daily Dev Dashboard
+# Eric's Daily CS Learning Path
 
-A small automated snapshot of my GitHub activity, refreshed every day.
+A practical computer science topic, published automatically every day.
 
-<!-- DASHBOARD:START -->
-## Daily snapshot
+This repository answers one question each morning: **what useful technical concept should I learn today?**
 
-| Metric | Value |
-|---|---:|
-| Last refresh | Preparing first run |
-| Public repositories | Pending |
-| Recent activity | Pending |
-| Daily byte | Good systems make consistency repeatable |
+<!-- DAILY_LEARNING:START -->
+## Today's learning mission
 
-<!-- DASHBOARD:END -->
+| Field | Value |
+|---|---|
+| Day | **1** |
+| Topic | **REST vs GraphQL vs SOAP** |
+| Track | API & Web |
+| Time box | 45–60 minutes |
+| Status | Ready for the first automated run |
 
-## About
+### Focus
 
-This repository turns public GitHub activity into a compact daily engineering log. A scheduled GitHub Actions workflow collects current data, generates a dated snapshot, and refreshes this README.
+Compare resource-oriented REST, query-driven GraphQL, and contract-heavy SOAP. Understand their request models, schemas, caching behavior, and trade-offs.
 
-## Features
+### Practical task
 
-- Daily public GitHub activity summary
-- Repository and language statistics
-- Dated Markdown snapshots
-- A rotating Daily Byte
-- Automatic updates through GitHub Actions
-- Manual workflow runs when needed
+Design the same movie-search operation using REST, GraphQL, and SOAP. Explain when each option makes sense.
 
-## How it works
+<!-- DAILY_LEARNING:END -->
+
+## What gets published
+
+Every daily lesson contains:
+
+- A focused technical concept
+- The reason it matters in real engineering work
+- A 45–60 minute learning plan
+- A practical design or coding exercise
+- A definition-of-done checklist
+- Checkpoint questions
+- Space for personal notes
+- A preview of the next topic
+
+## Curriculum
+
+The curriculum currently contains **110 practical topics** across:
+
+- API and web engineering
+- Networking
+- Databases and caching
+- Programming and software design
+- Testing and security
+- DevOps and cloud
+- Distributed systems
+- System design
+- Core computer science
+- Architecture and engineering practice
+
+Topics progress one per day and repeat only after the full curriculum is complete.
+
+## Automation
+
+GitHub Actions runs every day at **00:17 WIB**. It selects the next curriculum item, creates a dated lesson under `learning/`, refreshes this README, and commits the generated material.
 
 ```text
-GitHub API -> Python generator -> Daily snapshot -> Automated commit
+Curated curriculum -> Daily lesson generator -> Markdown lesson -> GitHub commit
 ```
+
+The workflow can also be launched manually from the Actions tab.
 
 ## Project structure
 
 ```text
 .
 ├── .github/workflows/daily-update.yml
-├── daily/
+├── curriculum/topics.json
+├── learning/
 ├── scripts/update_dashboard.py
 └── README.md
 ```
@@ -46,11 +79,11 @@ GitHub API -> Python generator -> Daily snapshot -> Automated commit
 ## Run locally
 
 ```bash
-GITHUB_USER=erick-surbakti python scripts/update_dashboard.py
+python scripts/update_dashboard.py
 ```
 
-No third-party Python packages are required.
+Python 3.9 or newer is enough. No third-party packages are required.
 
 ---
 
-<sub>Keeping the contribution garden watered, one useful snapshot at a time.</sub>
+<sub>One focused concept a day. Learn it, build something small, then move forward.</sub>
