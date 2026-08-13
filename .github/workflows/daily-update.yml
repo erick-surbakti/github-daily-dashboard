@@ -1,4 +1,4 @@
-name: Daily dashboard update
+name: Publish daily CS lesson
 
 on:
   schedule:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-dashboard
+  group: daily-learning
   cancel-in-progress: true
 
 jobs:
-  update:
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -26,20 +26,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate daily snapshot
-        env:
-          GITHUB_USER: erick-surbakti
-          GH_TOKEN: ${{ github.token }}
+      - name: Generate today's lesson
         run: python scripts/update_dashboard.py
 
-      - name: Commit generated changes
+      - name: Commit generated lesson
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "No dashboard changes."
+            echo "Today's lesson already exists."
             exit 0
           fi
           git config user.name "Erick Surbakti"
           git config user.email "erick-surbakti@users.noreply.github.com"
-          git add README.md daily/
-          git commit -m "chore: refresh daily dashboard"
+          git add README.md learning/
+          git commit -m "learn: publish daily CS topic"
           git push
