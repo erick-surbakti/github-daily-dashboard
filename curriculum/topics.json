@@ -1,0 +1,662 @@
+[
+  {
+    "category": "API & Web",
+    "title": "REST vs GraphQL vs SOAP",
+    "focus": "Bandingkan resource-oriented REST, query-driven GraphQL, dan contract-heavy SOAP. Pahami bentuk request, response, schema, caching, serta error handling.",
+    "exercise": "Rancang endpoint pencarian film yang sama dalam REST, GraphQL, dan SOAP. Tulis kapan masing-masing pilihan masuk akal."
+  },
+  {
+    "category": "API & Web",
+    "title": "HTTP methods and idempotency",
+    "focus": "Pahami GET, POST, PUT, PATCH, DELETE, safe methods, dan dampak retry terhadap idempotency.",
+    "exercise": "Desain API pembayaran yang aman ketika client mengirim request dua kali."
+  },
+  {
+    "category": "API & Web",
+    "title": "HTTP status codes that matter",
+    "focus": "Bedakan 200, 201, 202, 204, 400, 401, 403, 404, 409, 422, 429, dan kelompok 5xx.",
+    "exercise": "Buat tabel status code untuk flow registrasi akun."
+  },
+  {
+    "category": "API & Web",
+    "title": "Headers, cookies, and tokens",
+    "focus": "Pelajari fungsi Content-Type, Accept, Authorization, Cache-Control, Cookie, dan Set-Cookie.",
+    "exercise": "Inspect satu request browser dan jelaskan lima header terpentingnya."
+  },
+  {
+    "category": "API & Web",
+    "title": "API pagination patterns",
+    "focus": "Bandingkan offset, page-number, dan cursor pagination dari sisi konsistensi serta performa.",
+    "exercise": "Desain pagination untuk feed yang terus menerima data baru."
+  },
+  {
+    "category": "API & Web",
+    "title": "API versioning",
+    "focus": "Bandingkan versioning lewat URL, header, media type, dan evolusi schema tanpa versi baru.",
+    "exercise": "Rancang migrasi endpoint v1 ke v2 tanpa memutus mobile client lama."
+  },
+  {
+    "category": "API & Web",
+    "title": "Rate limiting",
+    "focus": "Pahami token bucket, leaky bucket, fixed window, sliding window, dan header limit.",
+    "exercise": "Tentukan aturan rate limit untuk login dan public search API."
+  },
+  {
+    "category": "API & Web",
+    "title": "Webhooks vs polling",
+    "focus": "Bandingkan latency, reliability, retry, signature verification, dan operational cost.",
+    "exercise": "Desain penerimaan webhook pembayaran dengan retry dan deduplication."
+  },
+  {
+    "category": "API & Web",
+    "title": "SSE vs WebSocket vs long polling",
+    "focus": "Pahami komunikasi satu arah dan dua arah serta kapan koneksi persisten layak digunakan.",
+    "exercise": "Pilih teknologi untuk notifikasi, chat, dan live score. Jelaskan alasannya."
+  },
+  {
+    "category": "API & Web",
+    "title": "OpenAPI and contract-first design",
+    "focus": "Pahami schema, validation, generated clients, documentation, dan contract testing.",
+    "exercise": "Tulis mini OpenAPI spec untuk endpoint GET /movies/{id}."
+  },
+  {
+    "category": "Networking",
+    "title": "DNS from browser to server",
+    "focus": "Ikuti proses resolver, recursive lookup, authoritative server, TTL, dan caching.",
+    "exercise": "Gunakan nslookup atau dig pada satu domain lalu jelaskan hasilnya."
+  },
+  {
+    "category": "Networking",
+    "title": "TCP vs UDP",
+    "focus": "Bandingkan connection setup, ordering, reliability, congestion control, dan overhead.",
+    "exercise": "Pilih TCP atau UDP untuk file transfer, video call, DNS, dan game multiplayer."
+  },
+  {
+    "category": "Networking",
+    "title": "The TCP handshake and teardown",
+    "focus": "Pahami SYN, SYN-ACK, ACK, sequence number, FIN, serta TIME_WAIT.",
+    "exercise": "Gambar urutan koneksi TCP dan jelaskan fungsi TIME_WAIT."
+  },
+  {
+    "category": "Networking",
+    "title": "TLS and HTTPS",
+    "focus": "Pahami certificate, trust chain, key exchange, symmetric encryption, dan integrity.",
+    "exercise": "Buka detail sertifikat sebuah situs lalu identifikasi issuer dan masa berlaku."
+  },
+  {
+    "category": "Networking",
+    "title": "Ports, sockets, and connections",
+    "focus": "Bedakan port, listening socket, connected socket, IP tuple, dan ephemeral port.",
+    "exercise": "Jelaskan bagaimana ribuan client dapat terhubung ke port 443 yang sama."
+  },
+  {
+    "category": "Networking",
+    "title": "NAT, private IP, and public IP",
+    "focus": "Pahami alamat private, address translation, port mapping, dan keterbatasan inbound traffic.",
+    "exercise": "Petakan perjalanan request dari laptop rumah menuju public web server."
+  },
+  {
+    "category": "Networking",
+    "title": "Reverse proxy vs load balancer",
+    "focus": "Bedakan routing, TLS termination, caching, health checks, dan traffic distribution.",
+    "exercise": "Rancang posisi Nginx dan load balancer untuk tiga instance backend."
+  },
+  {
+    "category": "Networking",
+    "title": "CDN fundamentals",
+    "focus": "Pahami edge caching, origin, cache key, invalidation, dan geographic latency.",
+    "exercise": "Tentukan aset mana yang aman di-cache untuk aplikasi e-commerce."
+  },
+  {
+    "category": "Database",
+    "title": "SQL vs NoSQL",
+    "focus": "Bandingkan relational model, document, key-value, wide-column, graph, serta trade-off query.",
+    "exercise": "Pilih database untuk transaksi bank, session store, katalog produk, dan social graph."
+  },
+  {
+    "category": "Database",
+    "title": "Primary keys and indexes",
+    "focus": "Pahami B-tree, lookup cost, clustered vs secondary index, dan write overhead.",
+    "exercise": "Buat indeks untuk query pesanan berdasarkan customer dan tanggal."
+  },
+  {
+    "category": "Database",
+    "title": "Composite indexes",
+    "focus": "Pelajari leftmost prefix, selectivity, covering index, dan urutan kolom.",
+    "exercise": "Evaluasi indeks (status, created_at) untuk tiga query yang berbeda."
+  },
+  {
+    "category": "Database",
+    "title": "Database normalization",
+    "focus": "Pahami 1NF, 2NF, 3NF, redundancy, update anomaly, dan alasan denormalization.",
+    "exercise": "Normalisasi tabel order yang mencampur data customer dan produk."
+  },
+  {
+    "category": "Database",
+    "title": "ACID transactions",
+    "focus": "Pahami atomicity, consistency, isolation, durability, commit, dan rollback.",
+    "exercise": "Rancang transaksi transfer saldo antar dua rekening."
+  },
+  {
+    "category": "Database",
+    "title": "Isolation levels",
+    "focus": "Bandingkan read uncommitted, read committed, repeatable read, serializable, dan anomaly.",
+    "exercise": "Berikan contoh dirty read, non-repeatable read, dan phantom read."
+  },
+  {
+    "category": "Database",
+    "title": "Optimistic vs pessimistic locking",
+    "focus": "Pahami version column, row locks, contention, deadlock, dan retry.",
+    "exercise": "Pilih locking untuk pemesanan kursi bioskop yang ramai."
+  },
+  {
+    "category": "Database",
+    "title": "N+1 query problem",
+    "focus": "Kenali pola query berulang dari ORM, eager loading, join, dan batching.",
+    "exercise": "Temukan dan perbaiki N+1 pada daftar order beserta customer."
+  },
+  {
+    "category": "Database",
+    "title": "Replication and failover",
+    "focus": "Pahami primary-replica, replication lag, read scaling, promotion, dan consistency.",
+    "exercise": "Desain read/write routing untuk database dengan dua replica."
+  },
+  {
+    "category": "Database",
+    "title": "Sharding and partitioning",
+    "focus": "Bedakan horizontal partitioning, shard key, hotspots, resharding, dan scatter-gather.",
+    "exercise": "Pilih shard key untuk data transaksi marketplace."
+  },
+  {
+    "category": "Database",
+    "title": "Database migrations",
+    "focus": "Pelajari backward-compatible schema changes, expand-contract, backfill, dan rollback.",
+    "exercise": "Rancang perubahan kolom name menjadi first_name dan last_name tanpa downtime."
+  },
+  {
+    "category": "Caching",
+    "title": "Caching fundamentals",
+    "focus": "Pahami cache hit, miss, TTL, eviction, locality, dan stale data.",
+    "exercise": "Tentukan data mana yang layak di-cache pada katalog film."
+  },
+  {
+    "category": "Caching",
+    "title": "Cache-aside vs write-through",
+    "focus": "Bandingkan alur read/write, consistency, failure mode, dan implementation cost.",
+    "exercise": "Implementasikan pseudocode cache-aside untuk detail produk."
+  },
+  {
+    "category": "Caching",
+    "title": "Cache invalidation",
+    "focus": "Pelajari TTL, explicit invalidation, versioned key, event-driven invalidation, dan stampede.",
+    "exercise": "Rancang invalidation ketika harga produk berubah."
+  },
+  {
+    "category": "Caching",
+    "title": "Redis data structures",
+    "focus": "Pahami string, hash, list, set, sorted set, stream, dan use case masing-masing.",
+    "exercise": "Pilih struktur Redis untuk leaderboard, session, dan job queue."
+  },
+  {
+    "category": "Caching",
+    "title": "CDN and HTTP caching",
+    "focus": "Pahami Cache-Control, ETag, Last-Modified, private/public cache, dan revalidation.",
+    "exercise": "Tentukan header caching untuk avatar, HTML dashboard, dan API response."
+  },
+  {
+    "category": "Programming",
+    "title": "Process vs thread",
+    "focus": "Bandingkan memory isolation, scheduling, communication cost, dan failure boundary.",
+    "exercise": "Jelaskan pilihan worker process atau thread untuk web server."
+  },
+  {
+    "category": "Programming",
+    "title": "Concurrency vs parallelism",
+    "focus": "Bedakan interleaving task dengan eksekusi serentak pada banyak core.",
+    "exercise": "Klasifikasikan web crawling dan image processing sebagai concurrency atau parallelism."
+  },
+  {
+    "category": "Programming",
+    "title": "Race conditions",
+    "focus": "Pahami shared state, non-atomic operation, critical section, dan synchronization.",
+    "exercise": "Tulis contoh counter race lalu perbaiki dengan lock."
+  },
+  {
+    "category": "Programming",
+    "title": "Deadlocks",
+    "focus": "Pahami mutual exclusion, hold and wait, circular wait, ordering, dan timeout.",
+    "exercise": "Analisis dua lock yang diambil dengan urutan berbeda."
+  },
+  {
+    "category": "Programming",
+    "title": "Async and event loops",
+    "focus": "Pahami non-blocking I/O, task, future, callback, backpressure, dan blocking trap.",
+    "exercise": "Buat program async yang mengambil lima URL secara concurrent."
+  },
+  {
+    "category": "Programming",
+    "title": "Memory stack vs heap",
+    "focus": "Pahami lifetime, allocation, call frame, reference, garbage collection, dan leak.",
+    "exercise": "Lacak lokasi konseptual variable lokal, object, dan closure."
+  },
+  {
+    "category": "Programming",
+    "title": "Value vs reference semantics",
+    "focus": "Bandingkan copy, aliasing, mutation, equality, dan function arguments.",
+    "exercise": "Prediksi output beberapa contoh mutation pada array dan object."
+  },
+  {
+    "category": "Programming",
+    "title": "Immutability",
+    "focus": "Pahami predictable state, structural sharing, thread safety, dan allocation cost.",
+    "exercise": "Refactor fungsi yang mengubah input menjadi fungsi immutable."
+  },
+  {
+    "category": "Programming",
+    "title": "Pure functions and side effects",
+    "focus": "Bedakan deterministic computation dengan I/O, mutation, clock, dan randomness.",
+    "exercise": "Pisahkan business logic invoice dari akses database."
+  },
+  {
+    "category": "Programming",
+    "title": "Error handling strategies",
+    "focus": "Bandingkan exception, result type, error code, retry, fallback, dan fail-fast.",
+    "exercise": "Desain error flow untuk pemesanan yang gagal saat pembayaran."
+  },
+  {
+    "category": "Software Design",
+    "title": "SOLID principles",
+    "focus": "Pahami lima prinsip sebagai alat mengevaluasi perubahan, bukan aturan mekanis.",
+    "exercise": "Temukan dua pelanggaran SOLID pada class service yang terlalu besar."
+  },
+  {
+    "category": "Software Design",
+    "title": "Composition vs inheritance",
+    "focus": "Bandingkan reuse perilaku, coupling, substitutability, dan hierarchy fragility.",
+    "exercise": "Refactor hierarchy notification menjadi composition berbasis channel."
+  },
+  {
+    "category": "Software Design",
+    "title": "Dependency injection",
+    "focus": "Pahami inversion of control, constructor injection, testability, dan lifetime.",
+    "exercise": "Inject repository palsu ke service agar dapat diuji tanpa database."
+  },
+  {
+    "category": "Software Design",
+    "title": "Repository and service patterns",
+    "focus": "Pisahkan persistence concern dari business rules tanpa membuat abstraksi kosong.",
+    "exercise": "Rancang boundary repository dan service untuk checkout."
+  },
+  {
+    "category": "Software Design",
+    "title": "Factory and strategy patterns",
+    "focus": "Gunakan factory untuk creation dan strategy untuk perilaku yang dapat diganti.",
+    "exercise": "Rancang beberapa metode perhitungan biaya pengiriman."
+  },
+  {
+    "category": "Software Design",
+    "title": "Observer and event-driven design",
+    "focus": "Pahami publisher, subscriber, coupling, delivery semantics, dan event ordering.",
+    "exercise": "Desain event OrderCreated dengan dua consumer."
+  },
+  {
+    "category": "Software Design",
+    "title": "State machines",
+    "focus": "Modelkan state, transition, guard, invalid transition, dan terminal state.",
+    "exercise": "Buat state machine untuk status pembayaran."
+  },
+  {
+    "category": "Testing",
+    "title": "Unit vs integration vs end-to-end tests",
+    "focus": "Bandingkan scope, speed, confidence, maintenance cost, dan failure diagnosis.",
+    "exercise": "Susun test pyramid untuk fitur login."
+  },
+  {
+    "category": "Testing",
+    "title": "Test doubles",
+    "focus": "Bedakan dummy, stub, fake, spy, dan mock serta risiko over-mocking.",
+    "exercise": "Pilih test double untuk payment gateway dan repository."
+  },
+  {
+    "category": "Testing",
+    "title": "Testing boundaries and edge cases",
+    "focus": "Pelajari equivalence partition, boundary values, empty input, overflow, dan time zones.",
+    "exercise": "Tulis kasus uji untuk diskon berdasarkan rentang umur."
+  },
+  {
+    "category": "Testing",
+    "title": "Property-based testing",
+    "focus": "Pahami invariant, generated inputs, shrinking, dan kapan contoh manual tidak cukup.",
+    "exercise": "Tentukan invariant untuk fungsi sort atau currency conversion."
+  },
+  {
+    "category": "Testing",
+    "title": "Contract testing",
+    "focus": "Validasi kesepakatan consumer-provider tanpa menjalankan seluruh sistem.",
+    "exercise": "Rancang contract test antara checkout service dan payment service."
+  },
+  {
+    "category": "Testing",
+    "title": "Load and stress testing",
+    "focus": "Bedakan expected load, spike, endurance, breakpoint, latency percentile, dan throughput.",
+    "exercise": "Tentukan skenario uji untuk ticket sale dengan traffic mendadak."
+  },
+  {
+    "category": "Security",
+    "title": "Authentication vs authorization",
+    "focus": "Bedakan pembuktian identitas dengan keputusan akses serta prinsip least privilege.",
+    "exercise": "Rancang akses admin, editor, dan viewer untuk dashboard."
+  },
+  {
+    "category": "Security",
+    "title": "Sessions vs JWT",
+    "focus": "Bandingkan revocation, storage, scaling, token size, rotation, dan security risk.",
+    "exercise": "Pilih session atau JWT untuk web app internal dan public API."
+  },
+  {
+    "category": "Security",
+    "title": "OAuth 2.0 and OpenID Connect",
+    "focus": "Pahami authorization code, PKCE, access token, refresh token, ID token, dan scopes.",
+    "exercise": "Jelaskan login Google dari browser sampai aplikasi menerima identitas."
+  },
+  {
+    "category": "Security",
+    "title": "Password storage",
+    "focus": "Pelajari salt, Argon2/bcrypt, work factor, pepper, breach response, dan reset flow.",
+    "exercise": "Tulis checklist implementasi penyimpanan password."
+  },
+  {
+    "category": "Security",
+    "title": "SQL injection",
+    "focus": "Pahami input-to-query flow, parameterized query, ORM pitfalls, dan least privilege.",
+    "exercise": "Perbaiki query login yang dibangun melalui string concatenation."
+  },
+  {
+    "category": "Security",
+    "title": "XSS and output encoding",
+    "focus": "Bedakan stored, reflected, DOM XSS, context-aware encoding, CSP, dan sanitization.",
+    "exercise": "Cari sink berbahaya pada contoh penggunaan innerHTML."
+  },
+  {
+    "category": "Security",
+    "title": "CSRF",
+    "focus": "Pahami ambient credentials, SameSite cookie, CSRF token, Origin check, dan unsafe methods.",
+    "exercise": "Lindungi endpoint perubahan email berbasis cookie session."
+  },
+  {
+    "category": "Security",
+    "title": "CORS",
+    "focus": "Pahami same-origin policy, preflight, allowed origins, credentials, dan common misconfiguration.",
+    "exercise": "Konfigurasikan origin frontend tertentu tanpa wildcard."
+  },
+  {
+    "category": "Security",
+    "title": "Secrets management",
+    "focus": "Pisahkan secret dari source code, gunakan rotation, scoped access, audit, dan environment injection.",
+    "exercise": "Pindahkan API key hardcoded ke secret store atau CI secret."
+  },
+  {
+    "category": "Security",
+    "title": "Threat modeling",
+    "focus": "Identifikasi asset, trust boundary, attacker, entry point, dan mitigasi dengan STRIDE.",
+    "exercise": "Buat threat model singkat untuk file upload service."
+  },
+  {
+    "category": "DevOps",
+    "title": "Containers vs virtual machines",
+    "focus": "Bandingkan kernel sharing, isolation, startup, image, portability, dan resource overhead.",
+    "exercise": "Pilih container atau VM untuk tiga workload berbeda."
+  },
+  {
+    "category": "DevOps",
+    "title": "Docker images and layers",
+    "focus": "Pahami Dockerfile, layer cache, build context, multi-stage build, dan image size.",
+    "exercise": "Optimalkan Dockerfile aplikasi Node atau Python."
+  },
+  {
+    "category": "DevOps",
+    "title": "Docker networking",
+    "focus": "Pelajari bridge network, port publishing, DNS antarkontainer, host, dan volume.",
+    "exercise": "Hubungkan web app, API, dan database melalui Compose."
+  },
+  {
+    "category": "DevOps",
+    "title": "CI vs CD",
+    "focus": "Bedakan continuous integration, delivery, deployment, quality gates, dan rollback.",
+    "exercise": "Desain pipeline dari pull request sampai production."
+  },
+  {
+    "category": "DevOps",
+    "title": "Infrastructure as Code",
+    "focus": "Pahami declarative state, plan, apply, drift, modules, dan state management.",
+    "exercise": "Tulis struktur Terraform untuk satu web service."
+  },
+  {
+    "category": "DevOps",
+    "title": "Observability pillars",
+    "focus": "Hubungkan logs, metrics, traces, context, correlation ID, dan actionable alerts.",
+    "exercise": "Tentukan telemetry untuk endpoint checkout lambat."
+  },
+  {
+    "category": "DevOps",
+    "title": "SLI, SLO, and SLA",
+    "focus": "Bedakan indikator, target internal, kontrak eksternal, error budget, dan trade-off reliability.",
+    "exercise": "Buat SLO availability dan latency untuk sebuah API."
+  },
+  {
+    "category": "DevOps",
+    "title": "Blue-green vs canary deployment",
+    "focus": "Bandingkan traffic switch, incremental exposure, rollback speed, dan infrastructure cost.",
+    "exercise": "Pilih strategi deployment untuk perubahan payment service."
+  },
+  {
+    "category": "Cloud",
+    "title": "Horizontal vs vertical scaling",
+    "focus": "Bandingkan scale up, scale out, limits, cost, load distribution, dan state.",
+    "exercise": "Rancang scaling untuk API stateless dengan traffic naik sepuluh kali."
+  },
+  {
+    "category": "Cloud",
+    "title": "Serverless fundamentals",
+    "focus": "Pahami function lifecycle, event triggers, cold start, limits, billing, dan lock-in.",
+    "exercise": "Pilih serverless atau container untuk image thumbnail service."
+  },
+  {
+    "category": "Cloud",
+    "title": "Queues and background jobs",
+    "focus": "Pahami producer, consumer, ack, retry, visibility timeout, DLQ, dan idempotency.",
+    "exercise": "Desain proses pengiriman email setelah checkout."
+  },
+  {
+    "category": "Cloud",
+    "title": "Object storage vs block storage",
+    "focus": "Bandingkan access model, durability, latency, filesystem, dan use case.",
+    "exercise": "Pilih storage untuk database disk, video, backup, dan user upload."
+  },
+  {
+    "category": "Cloud",
+    "title": "High availability",
+    "focus": "Pahami redundancy, failure domain, multi-zone, health checks, failover, dan RTO/RPO.",
+    "exercise": "Rancang layanan tetap hidup ketika satu availability zone gagal."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "CAP theorem",
+    "focus": "Pahami consistency, availability, partition tolerance, serta batas interpretasi CAP.",
+    "exercise": "Analisis pilihan saat network partition pada inventory service."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "Consistency models",
+    "focus": "Bandingkan strong, eventual, read-your-writes, monotonic reads, dan causal consistency.",
+    "exercise": "Pilih model untuk saldo bank, likes, dan product search."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "At-least-once delivery",
+    "focus": "Pahami duplicate message, lost acknowledgment, retry, deduplication, dan idempotent consumer.",
+    "exercise": "Buat consumer pembayaran aman terhadap pesan ganda."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "Distributed locks",
+    "focus": "Pelajari lease, fencing token, clock issue, failure mode, dan kapan lock harus dihindari.",
+    "exercise": "Evaluasi lock untuk scheduled job yang berjalan pada banyak instance."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "Saga transactions",
+    "focus": "Bandingkan choreography, orchestration, compensating action, dan partial failure.",
+    "exercise": "Rancang saga order, payment, dan inventory."
+  },
+  {
+    "category": "Distributed Systems",
+    "title": "Event sourcing and CQRS",
+    "focus": "Pahami event log, projections, replay, command/query separation, dan complexity cost.",
+    "exercise": "Modelkan perubahan saldo sebagai event."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a URL shortener",
+    "focus": "Gabungkan ID generation, redirect, database, caching, analytics, dan abuse control.",
+    "exercise": "Buat estimasi traffic serta sketsa komponen utama."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a notification system",
+    "focus": "Pahami preference, template, queue, provider, retry, deduplication, dan delivery status.",
+    "exercise": "Desain email, SMS, dan push notification dari satu event."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a chat service",
+    "focus": "Bahas connection management, message ordering, presence, storage, fan-out, dan offline delivery.",
+    "exercise": "Rancang flow pengiriman pesan satu-ke-satu."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a rate limiter",
+    "focus": "Tentukan algorithm, key, distributed state, atomic update, headers, dan failure behavior.",
+    "exercise": "Desain limiter per-user serta per-IP."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a file upload service",
+    "focus": "Bahas direct upload, signed URL, multipart, validation, scanning, metadata, dan CDN.",
+    "exercise": "Rancang upload video besar yang dapat dilanjutkan setelah putus."
+  },
+  {
+    "category": "System Design",
+    "title": "Design a search system",
+    "focus": "Pahami indexing pipeline, inverted index, ranking, typo tolerance, freshness, dan pagination.",
+    "exercise": "Rancang pencarian produk berdasarkan nama dan kategori."
+  },
+  {
+    "category": "System Design",
+    "title": "Design an audit log",
+    "focus": "Bahas append-only data, actor, action, timestamp, integrity, retention, dan querying.",
+    "exercise": "Tentukan schema audit untuk perubahan role pengguna."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Big O complexity",
+    "focus": "Analisis growth rate, worst/average case, time-space trade-off, dan hidden constants.",
+    "exercise": "Hitung kompleksitas tiga loop dan satu recursive function."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Arrays vs linked lists",
+    "focus": "Bandingkan contiguous memory, random access, insertion, cache locality, dan overhead.",
+    "exercise": "Pilih struktur untuk queue, indexed lookup, dan frequent middle insertion."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Hash tables",
+    "focus": "Pahami hash function, collision, load factor, resizing, dan expected O(1).",
+    "exercise": "Implementasikan map sederhana dengan separate chaining."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Stacks and queues",
+    "focus": "Pahami LIFO, FIFO, deque, serta aplikasi pada parsing, traversal, dan scheduling.",
+    "exercise": "Gunakan stack untuk validasi bracket dan queue untuk BFS."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Trees and graph traversal",
+    "focus": "Bandingkan tree, graph, DFS, BFS, visited set, dan shortest unweighted path.",
+    "exercise": "Implementasikan BFS untuk mencari jarak minimum."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Binary search",
+    "focus": "Pahami invariant, sorted requirement, boundary bugs, lower bound, dan O(log n).",
+    "exercise": "Implementasikan pencarian elemen pertama yang memenuhi kondisi."
+  },
+  {
+    "category": "Computer Science",
+    "title": "Recursion and dynamic programming",
+    "focus": "Bedakan overlapping subproblem, memoization, tabulation, state, dan transition.",
+    "exercise": "Ubah Fibonacci recursive menjadi memoized dan bottom-up."
+  },
+  {
+    "category": "Architecture",
+    "title": "Monolith vs microservices",
+    "focus": "Bandingkan deployment, coupling, data ownership, team boundaries, observability, dan operational cost.",
+    "exercise": "Pilih arsitektur untuk startup baru dengan tim lima engineer."
+  },
+  {
+    "category": "Architecture",
+    "title": "Modular monolith",
+    "focus": "Pahami module boundary, internal API, dependency direction, dan jalur evolusi.",
+    "exercise": "Bagi aplikasi commerce menjadi modul tanpa memisah deployment."
+  },
+  {
+    "category": "Architecture",
+    "title": "Event-driven architecture",
+    "focus": "Pelajari event, command, broker, schema evolution, replay, dan eventual consistency.",
+    "exercise": "Desain event flow setelah order berhasil dibuat."
+  },
+  {
+    "category": "Architecture",
+    "title": "API gateway and backend for frontend",
+    "focus": "Bandingkan centralized cross-cutting concerns dengan API khusus tiap client.",
+    "exercise": "Rancang API untuk web dan mobile yang membutuhkan bentuk data berbeda."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Git merge vs rebase",
+    "focus": "Pahami commit graph, history rewriting, conflict resolution, dan collaboration safety.",
+    "exercise": "Simulasikan merge dan rebase pada dua branch kecil."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Code review that finds risk",
+    "focus": "Fokus pada correctness, security, maintainability, tests, dan context. Hindari komentar kosmetik berlebihan.",
+    "exercise": "Review sebuah diff dan tulis tiga komentar yang actionable."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Feature flags",
+    "focus": "Pahami decoupled release, targeting, kill switch, cleanup, dan testing combinations.",
+    "exercise": "Rancang rollout fitur baru untuk 5%, 25%, lalu 100% user."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Technical debt",
+    "focus": "Bedakan deliberate debt, accidental complexity, interest, prioritization, dan measurable impact.",
+    "exercise": "Pilih satu debt dan tulis alasan bisnis untuk memperbaikinya."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Writing an ADR",
+    "focus": "Dokumentasikan context, decision, alternatives, consequences, dan status.",
+    "exercise": "Tulis ADR pemilihan PostgreSQL dibanding MongoDB."
+  },
+  {
+    "category": "Engineering Practice",
+    "title": "Debugging systematically",
+    "focus": "Gunakan reproduction, hypothesis, evidence, isolation, instrumentation, dan regression test.",
+    "exercise": "Debug contoh bug dengan membuat daftar hipotesis sebelum mengubah kode."
+  }
+]
