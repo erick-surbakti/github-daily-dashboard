@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **1** |
-| Topic | **[REST vs GraphQL vs SOAP](learning/2026-08-13-rest-vs-graphql-vs-soap.md)** |
+| Day | **2** |
+| Topic | **[HTTP methods and idempotency](learning/2026-08-14-http-methods-and-idempotency.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 1 of 110 |
-| Next | HTTP methods and idempotency |
+| Curriculum position | 2 of 110 |
+| Next | HTTP status codes that matter |
 
 ### Focus
 
-Compare resource-oriented REST, query-driven GraphQL, and contract-heavy SOAP. Understand their request models, schemas, caching behavior, and trade-offs.
+Pahami GET, POST, PUT, PATCH, DELETE, safe methods, dan dampak retry terhadap idempotency.
 
 ### Practical task
 
-Design the same movie-search operation using REST, GraphQL, and SOAP. Explain when each option makes sense.
+Desain API pembayaran yang aman ketika client mengirim request dua kali.
 
-[Open today's complete lesson →](learning/2026-08-13-rest-vs-graphql-vs-soap.md)
+[Open today's complete lesson →](learning/2026-08-14-http-methods-and-idempotency.md)
 
 <!-- DAILY_LEARNING:END -->
 
