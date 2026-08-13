@@ -1,124 +1,143 @@
 #!/usr/bin/env python3
-"""Generate a compact daily GitHub activity dashboard."""
+"""Publish one practical computer science learning topic every day."""
 
 import json
-import os
-import random
-import urllib.request
-from collections import Counter
-from datetime import datetime, timezone
+import re
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-USER = os.getenv("GITHUB_USER", "erick-surbakti")
-TOKEN = os.getenv("GH_TOKEN", "")
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
-DAILY_DIR = ROOT / "daily"
-
-BYTES = [
-    "Automate the repeatable. Think carefully about the rest.",
-    "Small commits make progress easier to inspect.",
-    "Readable code is a feature for your future self.",
-    "A useful metric should change a decision.",
-    "Good systems make consistency repeatable.",
-    "Ship small, verify, then improve.",
-    "Documentation reduces the cost of returning.",
-]
+TOPICS_FILE = ROOT / "curriculum" / "topics.json"
+LEARNING_DIR = ROOT / "learning"
+START_DATE = date(2026, 8, 13)
+TIMEZONE = ZoneInfo("Asia/Jakarta")
 
 
-def request(path):
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "github-daily-dashboard",
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
-    if TOKEN:
-        headers["Authorization"] = f"Bearer {TOKEN}"
-    req = urllib.request.Request(f"https://api.github.com{path}", headers=headers)
-    with urllib.request.urlopen(req, timeout=20) as response:
-        return json.load(response)
+def slugify(value):
+    value = value.lower().replace("&", "and")
+    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
 
 
-def compact_number(value):
-    if value >= 1000:
-        return f"{value / 1000:.1f}k"
-    return str(value)
+def topic_for_day(today, topics):
+    day_number = (today - START_DATE).days
+    return day_number, topics[day_number % len(topics)]
+
+
+def lesson_markdown(today, number, topic, next_topic):
+    return f"""# Day {number + 1}: {topic["title"]}
+
+> **Track:** {topic["category"]}  
+> **Date:** {today.isoformat()}  
+> **Estimated time:** 45–60 minutes
+
+## Why this matters
+
+{topic["focus"]}
+
+This topic appears in real engineering decisions. Learn the trade-offs first. Memorizing terminology without understanding the decision is not enough.
+
+## Learning plan
+
+1. **Understand, 15 minutes**  
+   Define the main concepts in your own words. Identify the problem each concept solves.
+
+2. **Compare, 10 minutes**  
+   Write at least three trade-offs. Include performance, complexity, reliability, or maintainability where relevant.
+
+3. **Build, 20 minutes**  
+   {topic["exercise"]}
+
+4. **Verify, 5 minutes**  
+   Answer the checkpoint questions below without reopening your notes.
+
+## Practical task
+
+{topic["exercise"]}
+
+### Definition of done
+
+- [ ] I can explain the concept without reading a definition.
+- [ ] I can name one appropriate use case.
+- [ ] I can name one case where it is a poor choice.
+- [ ] I completed the practical task or wrote its pseudocode.
+- [ ] I recorded one remaining question.
+
+## Checkpoint
+
+1. What problem does this concept solve?
+2. What is its main trade-off?
+3. What breaks when it is implemented carelessly?
+4. How would you explain it to another developer in two minutes?
+
+## Personal notes
+
+Add your notes below if you study this topic manually.
+
+- Key insight:
+- Example:
+- Remaining question:
+
+## Next topic
+
+**{next_topic["title"]}**, in the **{next_topic["category"]}** track.
+"""
+
+
+def dashboard_markdown(today, number, topic, next_topic, lesson_path, total):
+    progress = (number % total) + 1
+    return f"""## Today's learning mission
+
+| Field | Value |
+|---|---|
+| Day | **{number + 1}** |
+| Topic | **[{topic["title"]}]({lesson_path.as_posix()})** |
+| Track | {topic["category"]} |
+| Time box | 45–60 minutes |
+| Curriculum position | {progress} of {total} |
+| Next | {next_topic["title"]} |
+
+### Focus
+
+{topic["focus"]}
+
+### Practical task
+
+{topic["exercise"]}
+
+[Open today's complete lesson →]({lesson_path.as_posix()})
+"""
 
 
 def main():
-    now = datetime.now(timezone.utc)
-    date = now.date().isoformat()
-    repos = request(f"/users/{USER}/repos?per_page=100&sort=updated")
-    events = request(f"/users/{USER}/events/public?per_page=100")
+    now = datetime.now(TIMEZONE)
+    today = now.date()
+    topics = json.loads(TOPICS_FILE.read_text(encoding="utf-8"))
+    number, topic = topic_for_day(today, topics)
+    next_topic = topics[(number + 1) % len(topics)]
 
-    owned = [repo for repo in repos if not repo.get("fork")]
-    languages = Counter(
-        repo["language"] for repo in owned if repo.get("language")
+    LEARNING_DIR.mkdir(exist_ok=True)
+    lesson_path = Path("learning") / f"{today.isoformat()}-{slugify(topic['title'])}.md"
+    absolute_lesson = ROOT / lesson_path
+    absolute_lesson.write_text(
+        lesson_markdown(today, number, topic, next_topic),
+        encoding="utf-8",
     )
-    stars = sum(repo.get("stargazers_count", 0) for repo in owned)
-    forks = sum(repo.get("forks_count", 0) for repo in owned)
-    active_today = [
-        event for event in events if event.get("created_at", "").startswith(date)
-    ]
-    event_types = Counter(event.get("type", "Activity") for event in active_today)
-    latest = owned[0]["name"] if owned else "No public repository yet"
 
-    random.seed(date)
-    daily_byte = random.choice(BYTES)
-    language_text = ", ".join(
-        f"{name} ({count})" for name, count in languages.most_common(5)
-    ) or "Not enough public data"
-    activity_text = ", ".join(
-        f"{name.removesuffix('Event')} ({count})"
-        for name, count in event_types.most_common()
-    ) or "Quiet build day"
-
-    dashboard = f"""## Daily snapshot
-
-| Metric | Value |
-|---|---:|
-| Last refresh | {now.strftime("%Y-%m-%d %H:%M UTC")} |
-| Public repositories | {len(owned)} |
-| Public events today | {len(active_today)} |
-| Stars received | {compact_number(stars)} |
-| Forks received | {compact_number(forks)} |
-| Recently updated | [{latest}](https://github.com/{USER}/{latest}) |
-
-### Current signals
-
-- Languages: {language_text}
-- Today's activity: {activity_text}
-- Daily Byte: {daily_byte}
-"""
-
-    text = README.read_text(encoding="utf-8")
-    start = "<!-- DASHBOARD:START -->"
-    end = "<!-- DASHBOARD:END -->"
-    before, remainder = text.split(start, 1)
+    readme = README.read_text(encoding="utf-8")
+    start = "<!-- DAILY_LEARNING:START -->"
+    end = "<!-- DAILY_LEARNING:END -->"
+    before, remainder = readme.split(start, 1)
     _, after = remainder.split(end, 1)
-    README.write_text(
-        f"{before}{start}\n{dashboard}\n{end}{after}", encoding="utf-8"
+    dashboard = dashboard_markdown(
+        today, number, topic, next_topic, lesson_path, len(topics)
     )
-
-    DAILY_DIR.mkdir(exist_ok=True)
-    snapshot = f"""# Daily snapshot: {date}
-
-| Metric | Value |
-|---|---:|
-| Public repositories | {len(owned)} |
-| Public events | {len(active_today)} |
-| Stars | {stars} |
-| Forks | {forks} |
-| Recently updated | [{latest}](https://github.com/{USER}/{latest}) |
-
-## Signals
-
-- Languages: {language_text}
-- Activity: {activity_text}
-- Daily Byte: {daily_byte}
-"""
-    (DAILY_DIR / f"{date}.md").write_text(snapshot, encoding="utf-8")
-    print(f"Dashboard updated for {date}")
+    README.write_text(
+        f"{before}{start}\n{dashboard}\n{end}{after}",
+        encoding="utf-8",
+    )
+    print(f"Published Day {number + 1}: {topic['title']}")
 
 
 if __name__ == "__main__":
