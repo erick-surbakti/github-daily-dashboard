@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **2** |
-| Topic | **[HTTP methods and idempotency](learning/2026-08-14-http-methods-and-idempotency.md)** |
+| Day | **3** |
+| Topic | **[HTTP status codes that matter](learning/2026-08-15-http-status-codes-that-matter.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 2 of 110 |
-| Next | HTTP status codes that matter |
+| Curriculum position | 3 of 110 |
+| Next | Headers, cookies, and tokens |
 
 ### Focus
 
-Pahami GET, POST, PUT, PATCH, DELETE, safe methods, dan dampak retry terhadap idempotency.
+Bedakan 200, 201, 202, 204, 400, 401, 403, 404, 409, 422, 429, dan kelompok 5xx.
 
 ### Practical task
 
-Desain API pembayaran yang aman ketika client mengirim request dua kali.
+Buat tabel status code untuk flow registrasi akun.
 
-[Open today's complete lesson →](learning/2026-08-14-http-methods-and-idempotency.md)
+[Open today's complete lesson →](learning/2026-08-15-http-status-codes-that-matter.md)
 
 <!-- DAILY_LEARNING:END -->
 
