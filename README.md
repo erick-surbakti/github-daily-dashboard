@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **3** |
-| Topic | **[HTTP status codes that matter](learning/2026-08-15-http-status-codes-that-matter.md)** |
+| Day | **4** |
+| Topic | **[Headers, cookies, and tokens](learning/2026-08-16-headers-cookies-and-tokens.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 3 of 110 |
-| Next | Headers, cookies, and tokens |
+| Curriculum position | 4 of 110 |
+| Next | API pagination patterns |
 
 ### Focus
 
-Bedakan 200, 201, 202, 204, 400, 401, 403, 404, 409, 422, 429, dan kelompok 5xx.
+Pelajari fungsi Content-Type, Accept, Authorization, Cache-Control, Cookie, dan Set-Cookie.
 
 ### Practical task
 
-Buat tabel status code untuk flow registrasi akun.
+Inspect satu request browser dan jelaskan lima header terpentingnya.
 
-[Open today's complete lesson →](learning/2026-08-15-http-status-codes-that-matter.md)
+[Open today's complete lesson →](learning/2026-08-16-headers-cookies-and-tokens.md)
 
 <!-- DAILY_LEARNING:END -->
 
