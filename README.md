@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **4** |
-| Topic | **[Headers, cookies, and tokens](learning/2026-08-16-headers-cookies-and-tokens.md)** |
+| Day | **5** |
+| Topic | **[API pagination patterns](learning/2026-08-17-api-pagination-patterns.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 4 of 110 |
-| Next | API pagination patterns |
+| Curriculum position | 5 of 110 |
+| Next | API versioning |
 
 ### Focus
 
-Pelajari fungsi Content-Type, Accept, Authorization, Cache-Control, Cookie, dan Set-Cookie.
+Bandingkan offset, page-number, dan cursor pagination dari sisi konsistensi serta performa.
 
 ### Practical task
 
-Inspect satu request browser dan jelaskan lima header terpentingnya.
+Desain pagination untuk feed yang terus menerima data baru.
 
-[Open today's complete lesson →](learning/2026-08-16-headers-cookies-and-tokens.md)
+[Open today's complete lesson →](learning/2026-08-17-api-pagination-patterns.md)
 
 <!-- DAILY_LEARNING:END -->
 
