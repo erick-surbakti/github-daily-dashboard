@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **5** |
-| Topic | **[API pagination patterns](learning/2026-08-17-api-pagination-patterns.md)** |
+| Day | **6** |
+| Topic | **[API versioning](learning/2026-08-18-api-versioning.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 5 of 110 |
-| Next | API versioning |
+| Curriculum position | 6 of 110 |
+| Next | Rate limiting |
 
 ### Focus
 
-Bandingkan offset, page-number, dan cursor pagination dari sisi konsistensi serta performa.
+Bandingkan versioning lewat URL, header, media type, dan evolusi schema tanpa versi baru.
 
 ### Practical task
 
-Desain pagination untuk feed yang terus menerima data baru.
+Rancang migrasi endpoint v1 ke v2 tanpa memutus mobile client lama.
 
-[Open today's complete lesson →](learning/2026-08-17-api-pagination-patterns.md)
+[Open today's complete lesson →](learning/2026-08-18-api-versioning.md)
 
 <!-- DAILY_LEARNING:END -->
 
