@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **6** |
-| Topic | **[API versioning](learning/2026-08-18-api-versioning.md)** |
+| Day | **7** |
+| Topic | **[Rate limiting](learning/2026-08-19-rate-limiting.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 6 of 110 |
-| Next | Rate limiting |
+| Curriculum position | 7 of 110 |
+| Next | Webhooks vs polling |
 
 ### Focus
 
-Bandingkan versioning lewat URL, header, media type, dan evolusi schema tanpa versi baru.
+Pahami token bucket, leaky bucket, fixed window, sliding window, dan header limit.
 
 ### Practical task
 
-Rancang migrasi endpoint v1 ke v2 tanpa memutus mobile client lama.
+Tentukan aturan rate limit untuk login dan public search API.
 
-[Open today's complete lesson →](learning/2026-08-18-api-versioning.md)
+[Open today's complete lesson →](learning/2026-08-19-rate-limiting.md)
 
 <!-- DAILY_LEARNING:END -->
 
