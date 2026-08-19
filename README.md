@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **7** |
-| Topic | **[Rate limiting](learning/2026-08-19-rate-limiting.md)** |
+| Day | **8** |
+| Topic | **[Webhooks vs polling](learning/2026-08-20-webhooks-vs-polling.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 7 of 110 |
-| Next | Webhooks vs polling |
+| Curriculum position | 8 of 110 |
+| Next | SSE vs WebSocket vs long polling |
 
 ### Focus
 
-Pahami token bucket, leaky bucket, fixed window, sliding window, dan header limit.
+Bandingkan latency, reliability, retry, signature verification, dan operational cost.
 
 ### Practical task
 
-Tentukan aturan rate limit untuk login dan public search API.
+Desain penerimaan webhook pembayaran dengan retry dan deduplication.
 
-[Open today's complete lesson →](learning/2026-08-19-rate-limiting.md)
+[Open today's complete lesson →](learning/2026-08-20-webhooks-vs-polling.md)
 
 <!-- DAILY_LEARNING:END -->
 
