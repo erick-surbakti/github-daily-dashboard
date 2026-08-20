@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **8** |
-| Topic | **[Webhooks vs polling](learning/2026-08-20-webhooks-vs-polling.md)** |
+| Day | **9** |
+| Topic | **[SSE vs WebSocket vs long polling](learning/2026-08-21-sse-vs-websocket-vs-long-polling.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 8 of 110 |
-| Next | SSE vs WebSocket vs long polling |
+| Curriculum position | 9 of 110 |
+| Next | OpenAPI and contract-first design |
 
 ### Focus
 
-Bandingkan latency, reliability, retry, signature verification, dan operational cost.
+Pahami komunikasi satu arah dan dua arah serta kapan koneksi persisten layak digunakan.
 
 ### Practical task
 
-Desain penerimaan webhook pembayaran dengan retry dan deduplication.
+Pilih teknologi untuk notifikasi, chat, dan live score. Jelaskan alasannya.
 
-[Open today's complete lesson →](learning/2026-08-20-webhooks-vs-polling.md)
+[Open today's complete lesson →](learning/2026-08-21-sse-vs-websocket-vs-long-polling.md)
 
 <!-- DAILY_LEARNING:END -->
 
