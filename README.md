@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **9** |
-| Topic | **[SSE vs WebSocket vs long polling](learning/2026-08-21-sse-vs-websocket-vs-long-polling.md)** |
+| Day | **10** |
+| Topic | **[OpenAPI and contract-first design](learning/2026-08-22-openapi-and-contract-first-design.md)** |
 | Track | API & Web |
 | Time box | 45–60 minutes |
-| Curriculum position | 9 of 110 |
-| Next | OpenAPI and contract-first design |
+| Curriculum position | 10 of 110 |
+| Next | DNS from browser to server |
 
 ### Focus
 
-Pahami komunikasi satu arah dan dua arah serta kapan koneksi persisten layak digunakan.
+Pahami schema, validation, generated clients, documentation, dan contract testing.
 
 ### Practical task
 
-Pilih teknologi untuk notifikasi, chat, dan live score. Jelaskan alasannya.
+Tulis mini OpenAPI spec untuk endpoint GET /movies/{id}.
 
-[Open today's complete lesson →](learning/2026-08-21-sse-vs-websocket-vs-long-polling.md)
+[Open today's complete lesson →](learning/2026-08-22-openapi-and-contract-first-design.md)
 
 <!-- DAILY_LEARNING:END -->
 
