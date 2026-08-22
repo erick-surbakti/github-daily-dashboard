@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **10** |
-| Topic | **[OpenAPI and contract-first design](learning/2026-08-22-openapi-and-contract-first-design.md)** |
-| Track | API & Web |
+| Day | **11** |
+| Topic | **[DNS from browser to server](learning/2026-08-23-dns-from-browser-to-server.md)** |
+| Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 10 of 110 |
-| Next | DNS from browser to server |
+| Curriculum position | 11 of 110 |
+| Next | TCP vs UDP |
 
 ### Focus
 
-Pahami schema, validation, generated clients, documentation, dan contract testing.
+Ikuti proses resolver, recursive lookup, authoritative server, TTL, dan caching.
 
 ### Practical task
 
-Tulis mini OpenAPI spec untuk endpoint GET /movies/{id}.
+Gunakan nslookup atau dig pada satu domain lalu jelaskan hasilnya.
 
-[Open today's complete lesson →](learning/2026-08-22-openapi-and-contract-first-design.md)
+[Open today's complete lesson →](learning/2026-08-23-dns-from-browser-to-server.md)
 
 <!-- DAILY_LEARNING:END -->
 
