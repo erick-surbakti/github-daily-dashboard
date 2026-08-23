@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **11** |
-| Topic | **[DNS from browser to server](learning/2026-08-23-dns-from-browser-to-server.md)** |
+| Day | **12** |
+| Topic | **[TCP vs UDP](learning/2026-08-24-tcp-vs-udp.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 11 of 110 |
-| Next | TCP vs UDP |
+| Curriculum position | 12 of 110 |
+| Next | The TCP handshake and teardown |
 
 ### Focus
 
-Ikuti proses resolver, recursive lookup, authoritative server, TTL, dan caching.
+Bandingkan connection setup, ordering, reliability, congestion control, dan overhead.
 
 ### Practical task
 
-Gunakan nslookup atau dig pada satu domain lalu jelaskan hasilnya.
+Pilih TCP atau UDP untuk file transfer, video call, DNS, dan game multiplayer.
 
-[Open today's complete lesson →](learning/2026-08-23-dns-from-browser-to-server.md)
+[Open today's complete lesson →](learning/2026-08-24-tcp-vs-udp.md)
 
 <!-- DAILY_LEARNING:END -->
 
