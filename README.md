@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **12** |
-| Topic | **[TCP vs UDP](learning/2026-08-24-tcp-vs-udp.md)** |
+| Day | **13** |
+| Topic | **[The TCP handshake and teardown](learning/2026-08-25-the-tcp-handshake-and-teardown.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 12 of 110 |
-| Next | The TCP handshake and teardown |
+| Curriculum position | 13 of 110 |
+| Next | TLS and HTTPS |
 
 ### Focus
 
-Bandingkan connection setup, ordering, reliability, congestion control, dan overhead.
+Pahami SYN, SYN-ACK, ACK, sequence number, FIN, serta TIME_WAIT.
 
 ### Practical task
 
-Pilih TCP atau UDP untuk file transfer, video call, DNS, dan game multiplayer.
+Gambar urutan koneksi TCP dan jelaskan fungsi TIME_WAIT.
 
-[Open today's complete lesson →](learning/2026-08-24-tcp-vs-udp.md)
+[Open today's complete lesson →](learning/2026-08-25-the-tcp-handshake-and-teardown.md)
 
 <!-- DAILY_LEARNING:END -->
 
