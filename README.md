@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **13** |
-| Topic | **[The TCP handshake and teardown](learning/2026-08-25-the-tcp-handshake-and-teardown.md)** |
+| Day | **14** |
+| Topic | **[TLS and HTTPS](learning/2026-08-26-tls-and-https.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 13 of 110 |
-| Next | TLS and HTTPS |
+| Curriculum position | 14 of 110 |
+| Next | Ports, sockets, and connections |
 
 ### Focus
 
-Pahami SYN, SYN-ACK, ACK, sequence number, FIN, serta TIME_WAIT.
+Pahami certificate, trust chain, key exchange, symmetric encryption, dan integrity.
 
 ### Practical task
 
-Gambar urutan koneksi TCP dan jelaskan fungsi TIME_WAIT.
+Buka detail sertifikat sebuah situs lalu identifikasi issuer dan masa berlaku.
 
-[Open today's complete lesson →](learning/2026-08-25-the-tcp-handshake-and-teardown.md)
+[Open today's complete lesson →](learning/2026-08-26-tls-and-https.md)
 
 <!-- DAILY_LEARNING:END -->
 
