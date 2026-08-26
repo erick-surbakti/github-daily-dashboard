@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **14** |
-| Topic | **[TLS and HTTPS](learning/2026-08-26-tls-and-https.md)** |
+| Day | **15** |
+| Topic | **[Ports, sockets, and connections](learning/2026-08-27-ports-sockets-and-connections.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 14 of 110 |
-| Next | Ports, sockets, and connections |
+| Curriculum position | 15 of 110 |
+| Next | NAT, private IP, and public IP |
 
 ### Focus
 
-Pahami certificate, trust chain, key exchange, symmetric encryption, dan integrity.
+Bedakan port, listening socket, connected socket, IP tuple, dan ephemeral port.
 
 ### Practical task
 
-Buka detail sertifikat sebuah situs lalu identifikasi issuer dan masa berlaku.
+Jelaskan bagaimana ribuan client dapat terhubung ke port 443 yang sama.
 
-[Open today's complete lesson →](learning/2026-08-26-tls-and-https.md)
+[Open today's complete lesson →](learning/2026-08-27-ports-sockets-and-connections.md)
 
 <!-- DAILY_LEARNING:END -->
 
