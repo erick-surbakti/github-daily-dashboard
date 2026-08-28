@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **15** |
-| Topic | **[Ports, sockets, and connections](learning/2026-08-27-ports-sockets-and-connections.md)** |
+| Day | **16** |
+| Topic | **[NAT, private IP, and public IP](learning/2026-08-28-nat-private-ip-and-public-ip.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 15 of 110 |
-| Next | NAT, private IP, and public IP |
+| Curriculum position | 16 of 110 |
+| Next | Reverse proxy vs load balancer |
 
 ### Focus
 
-Bedakan port, listening socket, connected socket, IP tuple, dan ephemeral port.
+Pahami alamat private, address translation, port mapping, dan keterbatasan inbound traffic.
 
 ### Practical task
 
-Jelaskan bagaimana ribuan client dapat terhubung ke port 443 yang sama.
+Petakan perjalanan request dari laptop rumah menuju public web server.
 
-[Open today's complete lesson →](learning/2026-08-27-ports-sockets-and-connections.md)
+[Open today's complete lesson →](learning/2026-08-28-nat-private-ip-and-public-ip.md)
 
 <!-- DAILY_LEARNING:END -->
 
