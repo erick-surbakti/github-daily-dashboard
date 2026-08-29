@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **16** |
-| Topic | **[NAT, private IP, and public IP](learning/2026-08-28-nat-private-ip-and-public-ip.md)** |
+| Day | **17** |
+| Topic | **[Reverse proxy vs load balancer](learning/2026-08-29-reverse-proxy-vs-load-balancer.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 16 of 110 |
-| Next | Reverse proxy vs load balancer |
+| Curriculum position | 17 of 110 |
+| Next | CDN fundamentals |
 
 ### Focus
 
-Pahami alamat private, address translation, port mapping, dan keterbatasan inbound traffic.
+Bedakan routing, TLS termination, caching, health checks, dan traffic distribution.
 
 ### Practical task
 
-Petakan perjalanan request dari laptop rumah menuju public web server.
+Rancang posisi Nginx dan load balancer untuk tiga instance backend.
 
-[Open today's complete lesson →](learning/2026-08-28-nat-private-ip-and-public-ip.md)
+[Open today's complete lesson →](learning/2026-08-29-reverse-proxy-vs-load-balancer.md)
 
 <!-- DAILY_LEARNING:END -->
 
