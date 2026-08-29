@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **17** |
-| Topic | **[Reverse proxy vs load balancer](learning/2026-08-29-reverse-proxy-vs-load-balancer.md)** |
+| Day | **18** |
+| Topic | **[CDN fundamentals](learning/2026-08-30-cdn-fundamentals.md)** |
 | Track | Networking |
 | Time box | 45–60 minutes |
-| Curriculum position | 17 of 110 |
-| Next | CDN fundamentals |
+| Curriculum position | 18 of 110 |
+| Next | SQL vs NoSQL |
 
 ### Focus
 
-Bedakan routing, TLS termination, caching, health checks, dan traffic distribution.
+Pahami edge caching, origin, cache key, invalidation, dan geographic latency.
 
 ### Practical task
 
-Rancang posisi Nginx dan load balancer untuk tiga instance backend.
+Tentukan aset mana yang aman di-cache untuk aplikasi e-commerce.
 
-[Open today's complete lesson →](learning/2026-08-29-reverse-proxy-vs-load-balancer.md)
+[Open today's complete lesson →](learning/2026-08-30-cdn-fundamentals.md)
 
 <!-- DAILY_LEARNING:END -->
 
