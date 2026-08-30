@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **18** |
-| Topic | **[CDN fundamentals](learning/2026-08-30-cdn-fundamentals.md)** |
-| Track | Networking |
+| Day | **19** |
+| Topic | **[SQL vs NoSQL](learning/2026-08-31-sql-vs-nosql.md)** |
+| Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 18 of 110 |
-| Next | SQL vs NoSQL |
+| Curriculum position | 19 of 110 |
+| Next | Primary keys and indexes |
 
 ### Focus
 
-Pahami edge caching, origin, cache key, invalidation, dan geographic latency.
+Bandingkan relational model, document, key-value, wide-column, graph, serta trade-off query.
 
 ### Practical task
 
-Tentukan aset mana yang aman di-cache untuk aplikasi e-commerce.
+Pilih database untuk transaksi bank, session store, katalog produk, dan social graph.
 
-[Open today's complete lesson →](learning/2026-08-30-cdn-fundamentals.md)
+[Open today's complete lesson →](learning/2026-08-31-sql-vs-nosql.md)
 
 <!-- DAILY_LEARNING:END -->
 
