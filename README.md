@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **19** |
-| Topic | **[SQL vs NoSQL](learning/2026-08-31-sql-vs-nosql.md)** |
+| Day | **20** |
+| Topic | **[Primary keys and indexes](learning/2026-09-01-primary-keys-and-indexes.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 19 of 110 |
-| Next | Primary keys and indexes |
+| Curriculum position | 20 of 110 |
+| Next | Composite indexes |
 
 ### Focus
 
-Bandingkan relational model, document, key-value, wide-column, graph, serta trade-off query.
+Pahami B-tree, lookup cost, clustered vs secondary index, dan write overhead.
 
 ### Practical task
 
-Pilih database untuk transaksi bank, session store, katalog produk, dan social graph.
+Buat indeks untuk query pesanan berdasarkan customer dan tanggal.
 
-[Open today's complete lesson →](learning/2026-08-31-sql-vs-nosql.md)
+[Open today's complete lesson →](learning/2026-09-01-primary-keys-and-indexes.md)
 
 <!-- DAILY_LEARNING:END -->
 
