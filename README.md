@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **20** |
-| Topic | **[Primary keys and indexes](learning/2026-09-01-primary-keys-and-indexes.md)** |
+| Day | **21** |
+| Topic | **[Composite indexes](learning/2026-09-02-composite-indexes.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 20 of 110 |
-| Next | Composite indexes |
+| Curriculum position | 21 of 110 |
+| Next | Database normalization |
 
 ### Focus
 
-Pahami B-tree, lookup cost, clustered vs secondary index, dan write overhead.
+Pelajari leftmost prefix, selectivity, covering index, dan urutan kolom.
 
 ### Practical task
 
-Buat indeks untuk query pesanan berdasarkan customer dan tanggal.
+Evaluasi indeks (status, created_at) untuk tiga query yang berbeda.
 
-[Open today's complete lesson →](learning/2026-09-01-primary-keys-and-indexes.md)
+[Open today's complete lesson →](learning/2026-09-02-composite-indexes.md)
 
 <!-- DAILY_LEARNING:END -->
 
