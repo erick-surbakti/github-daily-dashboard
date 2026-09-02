@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **21** |
-| Topic | **[Composite indexes](learning/2026-09-02-composite-indexes.md)** |
+| Day | **22** |
+| Topic | **[Database normalization](learning/2026-09-03-database-normalization.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 21 of 110 |
-| Next | Database normalization |
+| Curriculum position | 22 of 110 |
+| Next | ACID transactions |
 
 ### Focus
 
-Pelajari leftmost prefix, selectivity, covering index, dan urutan kolom.
+Pahami 1NF, 2NF, 3NF, redundancy, update anomaly, dan alasan denormalization.
 
 ### Practical task
 
-Evaluasi indeks (status, created_at) untuk tiga query yang berbeda.
+Normalisasi tabel order yang mencampur data customer dan produk.
 
-[Open today's complete lesson →](learning/2026-09-02-composite-indexes.md)
+[Open today's complete lesson →](learning/2026-09-03-database-normalization.md)
 
 <!-- DAILY_LEARNING:END -->
 
