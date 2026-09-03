@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **22** |
-| Topic | **[Database normalization](learning/2026-09-03-database-normalization.md)** |
+| Day | **23** |
+| Topic | **[ACID transactions](learning/2026-09-04-acid-transactions.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 22 of 110 |
-| Next | ACID transactions |
+| Curriculum position | 23 of 110 |
+| Next | Isolation levels |
 
 ### Focus
 
-Pahami 1NF, 2NF, 3NF, redundancy, update anomaly, dan alasan denormalization.
+Pahami atomicity, consistency, isolation, durability, commit, dan rollback.
 
 ### Practical task
 
-Normalisasi tabel order yang mencampur data customer dan produk.
+Rancang transaksi transfer saldo antar dua rekening.
 
-[Open today's complete lesson →](learning/2026-09-03-database-normalization.md)
+[Open today's complete lesson →](learning/2026-09-04-acid-transactions.md)
 
 <!-- DAILY_LEARNING:END -->
 
