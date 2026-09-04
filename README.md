@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **23** |
-| Topic | **[ACID transactions](learning/2026-09-04-acid-transactions.md)** |
+| Day | **24** |
+| Topic | **[Isolation levels](learning/2026-09-05-isolation-levels.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 23 of 110 |
-| Next | Isolation levels |
+| Curriculum position | 24 of 110 |
+| Next | Optimistic vs pessimistic locking |
 
 ### Focus
 
-Pahami atomicity, consistency, isolation, durability, commit, dan rollback.
+Bandingkan read uncommitted, read committed, repeatable read, serializable, dan anomaly.
 
 ### Practical task
 
-Rancang transaksi transfer saldo antar dua rekening.
+Berikan contoh dirty read, non-repeatable read, dan phantom read.
 
-[Open today's complete lesson →](learning/2026-09-04-acid-transactions.md)
+[Open today's complete lesson →](learning/2026-09-05-isolation-levels.md)
 
 <!-- DAILY_LEARNING:END -->
 
