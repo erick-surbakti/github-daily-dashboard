@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **24** |
-| Topic | **[Isolation levels](learning/2026-09-05-isolation-levels.md)** |
+| Day | **25** |
+| Topic | **[Optimistic vs pessimistic locking](learning/2026-09-06-optimistic-vs-pessimistic-locking.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 24 of 110 |
-| Next | Optimistic vs pessimistic locking |
+| Curriculum position | 25 of 110 |
+| Next | N+1 query problem |
 
 ### Focus
 
-Bandingkan read uncommitted, read committed, repeatable read, serializable, dan anomaly.
+Pahami version column, row locks, contention, deadlock, dan retry.
 
 ### Practical task
 
-Berikan contoh dirty read, non-repeatable read, dan phantom read.
+Pilih locking untuk pemesanan kursi bioskop yang ramai.
 
-[Open today's complete lesson →](learning/2026-09-05-isolation-levels.md)
+[Open today's complete lesson →](learning/2026-09-06-optimistic-vs-pessimistic-locking.md)
 
 <!-- DAILY_LEARNING:END -->
 
