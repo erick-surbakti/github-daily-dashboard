@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **25** |
-| Topic | **[Optimistic vs pessimistic locking](learning/2026-09-06-optimistic-vs-pessimistic-locking.md)** |
+| Day | **26** |
+| Topic | **[N+1 query problem](learning/2026-09-07-n-1-query-problem.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 25 of 110 |
-| Next | N+1 query problem |
+| Curriculum position | 26 of 110 |
+| Next | Replication and failover |
 
 ### Focus
 
-Pahami version column, row locks, contention, deadlock, dan retry.
+Kenali pola query berulang dari ORM, eager loading, join, dan batching.
 
 ### Practical task
 
-Pilih locking untuk pemesanan kursi bioskop yang ramai.
+Temukan dan perbaiki N+1 pada daftar order beserta customer.
 
-[Open today's complete lesson →](learning/2026-09-06-optimistic-vs-pessimistic-locking.md)
+[Open today's complete lesson →](learning/2026-09-07-n-1-query-problem.md)
 
 <!-- DAILY_LEARNING:END -->
 
