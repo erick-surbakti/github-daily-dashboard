@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **26** |
-| Topic | **[N+1 query problem](learning/2026-09-07-n-1-query-problem.md)** |
+| Day | **27** |
+| Topic | **[Replication and failover](learning/2026-09-08-replication-and-failover.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 26 of 110 |
-| Next | Replication and failover |
+| Curriculum position | 27 of 110 |
+| Next | Sharding and partitioning |
 
 ### Focus
 
-Kenali pola query berulang dari ORM, eager loading, join, dan batching.
+Pahami primary-replica, replication lag, read scaling, promotion, dan consistency.
 
 ### Practical task
 
-Temukan dan perbaiki N+1 pada daftar order beserta customer.
+Desain read/write routing untuk database dengan dua replica.
 
-[Open today's complete lesson →](learning/2026-09-07-n-1-query-problem.md)
+[Open today's complete lesson →](learning/2026-09-08-replication-and-failover.md)
 
 <!-- DAILY_LEARNING:END -->
 
