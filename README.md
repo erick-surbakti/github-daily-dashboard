@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **27** |
-| Topic | **[Replication and failover](learning/2026-09-08-replication-and-failover.md)** |
+| Day | **28** |
+| Topic | **[Sharding and partitioning](learning/2026-09-09-sharding-and-partitioning.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 27 of 110 |
-| Next | Sharding and partitioning |
+| Curriculum position | 28 of 110 |
+| Next | Database migrations |
 
 ### Focus
 
-Pahami primary-replica, replication lag, read scaling, promotion, dan consistency.
+Bedakan horizontal partitioning, shard key, hotspots, resharding, dan scatter-gather.
 
 ### Practical task
 
-Desain read/write routing untuk database dengan dua replica.
+Pilih shard key untuk data transaksi marketplace.
 
-[Open today's complete lesson →](learning/2026-09-08-replication-and-failover.md)
+[Open today's complete lesson →](learning/2026-09-09-sharding-and-partitioning.md)
 
 <!-- DAILY_LEARNING:END -->
 
