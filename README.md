@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **28** |
-| Topic | **[Sharding and partitioning](learning/2026-09-09-sharding-and-partitioning.md)** |
+| Day | **29** |
+| Topic | **[Database migrations](learning/2026-09-10-database-migrations.md)** |
 | Track | Database |
 | Time box | 45–60 minutes |
-| Curriculum position | 28 of 110 |
-| Next | Database migrations |
+| Curriculum position | 29 of 110 |
+| Next | Caching fundamentals |
 
 ### Focus
 
-Bedakan horizontal partitioning, shard key, hotspots, resharding, dan scatter-gather.
+Pelajari backward-compatible schema changes, expand-contract, backfill, dan rollback.
 
 ### Practical task
 
-Pilih shard key untuk data transaksi marketplace.
+Rancang perubahan kolom name menjadi first_name dan last_name tanpa downtime.
 
-[Open today's complete lesson →](learning/2026-09-09-sharding-and-partitioning.md)
+[Open today's complete lesson →](learning/2026-09-10-database-migrations.md)
 
 <!-- DAILY_LEARNING:END -->
 
