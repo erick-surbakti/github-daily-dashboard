@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **29** |
-| Topic | **[Database migrations](learning/2026-09-10-database-migrations.md)** |
-| Track | Database |
+| Day | **30** |
+| Topic | **[Caching fundamentals](learning/2026-09-11-caching-fundamentals.md)** |
+| Track | Caching |
 | Time box | 45–60 minutes |
-| Curriculum position | 29 of 110 |
-| Next | Caching fundamentals |
+| Curriculum position | 30 of 110 |
+| Next | Cache-aside vs write-through |
 
 ### Focus
 
-Pelajari backward-compatible schema changes, expand-contract, backfill, dan rollback.
+Pahami cache hit, miss, TTL, eviction, locality, dan stale data.
 
 ### Practical task
 
-Rancang perubahan kolom name menjadi first_name dan last_name tanpa downtime.
+Tentukan data mana yang layak di-cache pada katalog film.
 
-[Open today's complete lesson →](learning/2026-09-10-database-migrations.md)
+[Open today's complete lesson →](learning/2026-09-11-caching-fundamentals.md)
 
 <!-- DAILY_LEARNING:END -->
 
