@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **30** |
-| Topic | **[Caching fundamentals](learning/2026-09-11-caching-fundamentals.md)** |
+| Day | **31** |
+| Topic | **[Cache-aside vs write-through](learning/2026-09-12-cache-aside-vs-write-through.md)** |
 | Track | Caching |
 | Time box | 45–60 minutes |
-| Curriculum position | 30 of 110 |
-| Next | Cache-aside vs write-through |
+| Curriculum position | 31 of 110 |
+| Next | Cache invalidation |
 
 ### Focus
 
-Pahami cache hit, miss, TTL, eviction, locality, dan stale data.
+Bandingkan alur read/write, consistency, failure mode, dan implementation cost.
 
 ### Practical task
 
-Tentukan data mana yang layak di-cache pada katalog film.
+Implementasikan pseudocode cache-aside untuk detail produk.
 
-[Open today's complete lesson →](learning/2026-09-11-caching-fundamentals.md)
+[Open today's complete lesson →](learning/2026-09-12-cache-aside-vs-write-through.md)
 
 <!-- DAILY_LEARNING:END -->
 
