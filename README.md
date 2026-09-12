@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **31** |
-| Topic | **[Cache-aside vs write-through](learning/2026-09-12-cache-aside-vs-write-through.md)** |
+| Day | **32** |
+| Topic | **[Cache invalidation](learning/2026-09-13-cache-invalidation.md)** |
 | Track | Caching |
 | Time box | 45–60 minutes |
-| Curriculum position | 31 of 110 |
-| Next | Cache invalidation |
+| Curriculum position | 32 of 110 |
+| Next | Redis data structures |
 
 ### Focus
 
-Bandingkan alur read/write, consistency, failure mode, dan implementation cost.
+Pelajari TTL, explicit invalidation, versioned key, event-driven invalidation, dan stampede.
 
 ### Practical task
 
-Implementasikan pseudocode cache-aside untuk detail produk.
+Rancang invalidation ketika harga produk berubah.
 
-[Open today's complete lesson →](learning/2026-09-12-cache-aside-vs-write-through.md)
+[Open today's complete lesson →](learning/2026-09-13-cache-invalidation.md)
 
 <!-- DAILY_LEARNING:END -->
 
