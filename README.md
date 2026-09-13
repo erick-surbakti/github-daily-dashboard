@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **32** |
-| Topic | **[Cache invalidation](learning/2026-09-13-cache-invalidation.md)** |
+| Day | **33** |
+| Topic | **[Redis data structures](learning/2026-09-14-redis-data-structures.md)** |
 | Track | Caching |
 | Time box | 45–60 minutes |
-| Curriculum position | 32 of 110 |
-| Next | Redis data structures |
+| Curriculum position | 33 of 110 |
+| Next | CDN and HTTP caching |
 
 ### Focus
 
-Pelajari TTL, explicit invalidation, versioned key, event-driven invalidation, dan stampede.
+Pahami string, hash, list, set, sorted set, stream, dan use case masing-masing.
 
 ### Practical task
 
-Rancang invalidation ketika harga produk berubah.
+Pilih struktur Redis untuk leaderboard, session, dan job queue.
 
-[Open today's complete lesson →](learning/2026-09-13-cache-invalidation.md)
+[Open today's complete lesson →](learning/2026-09-14-redis-data-structures.md)
 
 <!-- DAILY_LEARNING:END -->
 
