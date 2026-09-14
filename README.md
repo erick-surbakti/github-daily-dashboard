@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **33** |
-| Topic | **[Redis data structures](learning/2026-09-14-redis-data-structures.md)** |
+| Day | **34** |
+| Topic | **[CDN and HTTP caching](learning/2026-09-15-cdn-and-http-caching.md)** |
 | Track | Caching |
 | Time box | 45–60 minutes |
-| Curriculum position | 33 of 110 |
-| Next | CDN and HTTP caching |
+| Curriculum position | 34 of 110 |
+| Next | Process vs thread |
 
 ### Focus
 
-Pahami string, hash, list, set, sorted set, stream, dan use case masing-masing.
+Pahami Cache-Control, ETag, Last-Modified, private/public cache, dan revalidation.
 
 ### Practical task
 
-Pilih struktur Redis untuk leaderboard, session, dan job queue.
+Tentukan header caching untuk avatar, HTML dashboard, dan API response.
 
-[Open today's complete lesson →](learning/2026-09-14-redis-data-structures.md)
+[Open today's complete lesson →](learning/2026-09-15-cdn-and-http-caching.md)
 
 <!-- DAILY_LEARNING:END -->
 
