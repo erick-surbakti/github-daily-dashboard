@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **34** |
-| Topic | **[CDN and HTTP caching](learning/2026-09-15-cdn-and-http-caching.md)** |
-| Track | Caching |
+| Day | **35** |
+| Topic | **[Process vs thread](learning/2026-09-16-process-vs-thread.md)** |
+| Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 34 of 110 |
-| Next | Process vs thread |
+| Curriculum position | 35 of 110 |
+| Next | Concurrency vs parallelism |
 
 ### Focus
 
-Pahami Cache-Control, ETag, Last-Modified, private/public cache, dan revalidation.
+Bandingkan memory isolation, scheduling, communication cost, dan failure boundary.
 
 ### Practical task
 
-Tentukan header caching untuk avatar, HTML dashboard, dan API response.
+Jelaskan pilihan worker process atau thread untuk web server.
 
-[Open today's complete lesson →](learning/2026-09-15-cdn-and-http-caching.md)
+[Open today's complete lesson →](learning/2026-09-16-process-vs-thread.md)
 
 <!-- DAILY_LEARNING:END -->
 
