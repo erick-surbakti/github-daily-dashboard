@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **35** |
-| Topic | **[Process vs thread](learning/2026-09-16-process-vs-thread.md)** |
+| Day | **36** |
+| Topic | **[Concurrency vs parallelism](learning/2026-09-17-concurrency-vs-parallelism.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 35 of 110 |
-| Next | Concurrency vs parallelism |
+| Curriculum position | 36 of 110 |
+| Next | Race conditions |
 
 ### Focus
 
-Bandingkan memory isolation, scheduling, communication cost, dan failure boundary.
+Bedakan interleaving task dengan eksekusi serentak pada banyak core.
 
 ### Practical task
 
-Jelaskan pilihan worker process atau thread untuk web server.
+Klasifikasikan web crawling dan image processing sebagai concurrency atau parallelism.
 
-[Open today's complete lesson →](learning/2026-09-16-process-vs-thread.md)
+[Open today's complete lesson →](learning/2026-09-17-concurrency-vs-parallelism.md)
 
 <!-- DAILY_LEARNING:END -->
 
