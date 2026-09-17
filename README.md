@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **36** |
-| Topic | **[Concurrency vs parallelism](learning/2026-09-17-concurrency-vs-parallelism.md)** |
+| Day | **37** |
+| Topic | **[Race conditions](learning/2026-09-18-race-conditions.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 36 of 110 |
-| Next | Race conditions |
+| Curriculum position | 37 of 110 |
+| Next | Deadlocks |
 
 ### Focus
 
-Bedakan interleaving task dengan eksekusi serentak pada banyak core.
+Pahami shared state, non-atomic operation, critical section, dan synchronization.
 
 ### Practical task
 
-Klasifikasikan web crawling dan image processing sebagai concurrency atau parallelism.
+Tulis contoh counter race lalu perbaiki dengan lock.
 
-[Open today's complete lesson →](learning/2026-09-17-concurrency-vs-parallelism.md)
+[Open today's complete lesson →](learning/2026-09-18-race-conditions.md)
 
 <!-- DAILY_LEARNING:END -->
 
