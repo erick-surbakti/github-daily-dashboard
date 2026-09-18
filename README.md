@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **37** |
-| Topic | **[Race conditions](learning/2026-09-18-race-conditions.md)** |
+| Day | **38** |
+| Topic | **[Deadlocks](learning/2026-09-19-deadlocks.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 37 of 110 |
-| Next | Deadlocks |
+| Curriculum position | 38 of 110 |
+| Next | Async and event loops |
 
 ### Focus
 
-Pahami shared state, non-atomic operation, critical section, dan synchronization.
+Pahami mutual exclusion, hold and wait, circular wait, ordering, dan timeout.
 
 ### Practical task
 
-Tulis contoh counter race lalu perbaiki dengan lock.
+Analisis dua lock yang diambil dengan urutan berbeda.
 
-[Open today's complete lesson →](learning/2026-09-18-race-conditions.md)
+[Open today's complete lesson →](learning/2026-09-19-deadlocks.md)
 
 <!-- DAILY_LEARNING:END -->
 
