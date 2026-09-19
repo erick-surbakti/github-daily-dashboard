@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **38** |
-| Topic | **[Deadlocks](learning/2026-09-19-deadlocks.md)** |
+| Day | **39** |
+| Topic | **[Async and event loops](learning/2026-09-20-async-and-event-loops.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 38 of 110 |
-| Next | Async and event loops |
+| Curriculum position | 39 of 110 |
+| Next | Memory stack vs heap |
 
 ### Focus
 
-Pahami mutual exclusion, hold and wait, circular wait, ordering, dan timeout.
+Pahami non-blocking I/O, task, future, callback, backpressure, dan blocking trap.
 
 ### Practical task
 
-Analisis dua lock yang diambil dengan urutan berbeda.
+Buat program async yang mengambil lima URL secara concurrent.
 
-[Open today's complete lesson →](learning/2026-09-19-deadlocks.md)
+[Open today's complete lesson →](learning/2026-09-20-async-and-event-loops.md)
 
 <!-- DAILY_LEARNING:END -->
 
