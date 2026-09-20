@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **39** |
-| Topic | **[Async and event loops](learning/2026-09-20-async-and-event-loops.md)** |
+| Day | **40** |
+| Topic | **[Memory stack vs heap](learning/2026-09-21-memory-stack-vs-heap.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 39 of 110 |
-| Next | Memory stack vs heap |
+| Curriculum position | 40 of 110 |
+| Next | Value vs reference semantics |
 
 ### Focus
 
-Pahami non-blocking I/O, task, future, callback, backpressure, dan blocking trap.
+Pahami lifetime, allocation, call frame, reference, garbage collection, dan leak.
 
 ### Practical task
 
-Buat program async yang mengambil lima URL secara concurrent.
+Lacak lokasi konseptual variable lokal, object, dan closure.
 
-[Open today's complete lesson →](learning/2026-09-20-async-and-event-loops.md)
+[Open today's complete lesson →](learning/2026-09-21-memory-stack-vs-heap.md)
 
 <!-- DAILY_LEARNING:END -->
 
