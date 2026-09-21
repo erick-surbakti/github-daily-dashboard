@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **40** |
-| Topic | **[Memory stack vs heap](learning/2026-09-21-memory-stack-vs-heap.md)** |
+| Day | **41** |
+| Topic | **[Value vs reference semantics](learning/2026-09-22-value-vs-reference-semantics.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 40 of 110 |
-| Next | Value vs reference semantics |
+| Curriculum position | 41 of 110 |
+| Next | Immutability |
 
 ### Focus
 
-Pahami lifetime, allocation, call frame, reference, garbage collection, dan leak.
+Bandingkan copy, aliasing, mutation, equality, dan function arguments.
 
 ### Practical task
 
-Lacak lokasi konseptual variable lokal, object, dan closure.
+Prediksi output beberapa contoh mutation pada array dan object.
 
-[Open today's complete lesson →](learning/2026-09-21-memory-stack-vs-heap.md)
+[Open today's complete lesson →](learning/2026-09-22-value-vs-reference-semantics.md)
 
 <!-- DAILY_LEARNING:END -->
 
