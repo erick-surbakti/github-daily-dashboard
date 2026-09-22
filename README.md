@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **41** |
-| Topic | **[Value vs reference semantics](learning/2026-09-22-value-vs-reference-semantics.md)** |
+| Day | **42** |
+| Topic | **[Immutability](learning/2026-09-23-immutability.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 41 of 110 |
-| Next | Immutability |
+| Curriculum position | 42 of 110 |
+| Next | Pure functions and side effects |
 
 ### Focus
 
-Bandingkan copy, aliasing, mutation, equality, dan function arguments.
+Pahami predictable state, structural sharing, thread safety, dan allocation cost.
 
 ### Practical task
 
-Prediksi output beberapa contoh mutation pada array dan object.
+Refactor fungsi yang mengubah input menjadi fungsi immutable.
 
-[Open today's complete lesson →](learning/2026-09-22-value-vs-reference-semantics.md)
+[Open today's complete lesson →](learning/2026-09-23-immutability.md)
 
 <!-- DAILY_LEARNING:END -->
 
