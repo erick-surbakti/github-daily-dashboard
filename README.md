@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **42** |
-| Topic | **[Immutability](learning/2026-09-23-immutability.md)** |
+| Day | **43** |
+| Topic | **[Pure functions and side effects](learning/2026-09-24-pure-functions-and-side-effects.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 42 of 110 |
-| Next | Pure functions and side effects |
+| Curriculum position | 43 of 110 |
+| Next | Error handling strategies |
 
 ### Focus
 
-Pahami predictable state, structural sharing, thread safety, dan allocation cost.
+Bedakan deterministic computation dengan I/O, mutation, clock, dan randomness.
 
 ### Practical task
 
-Refactor fungsi yang mengubah input menjadi fungsi immutable.
+Pisahkan business logic invoice dari akses database.
 
-[Open today's complete lesson →](learning/2026-09-23-immutability.md)
+[Open today's complete lesson →](learning/2026-09-24-pure-functions-and-side-effects.md)
 
 <!-- DAILY_LEARNING:END -->
 
