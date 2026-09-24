@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **43** |
-| Topic | **[Pure functions and side effects](learning/2026-09-24-pure-functions-and-side-effects.md)** |
+| Day | **44** |
+| Topic | **[Error handling strategies](learning/2026-09-25-error-handling-strategies.md)** |
 | Track | Programming |
 | Time box | 45–60 minutes |
-| Curriculum position | 43 of 110 |
-| Next | Error handling strategies |
+| Curriculum position | 44 of 110 |
+| Next | SOLID principles |
 
 ### Focus
 
-Bedakan deterministic computation dengan I/O, mutation, clock, dan randomness.
+Bandingkan exception, result type, error code, retry, fallback, dan fail-fast.
 
 ### Practical task
 
-Pisahkan business logic invoice dari akses database.
+Desain error flow untuk pemesanan yang gagal saat pembayaran.
 
-[Open today's complete lesson →](learning/2026-09-24-pure-functions-and-side-effects.md)
+[Open today's complete lesson →](learning/2026-09-25-error-handling-strategies.md)
 
 <!-- DAILY_LEARNING:END -->
 
