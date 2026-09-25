@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **44** |
-| Topic | **[Error handling strategies](learning/2026-09-25-error-handling-strategies.md)** |
-| Track | Programming |
+| Day | **45** |
+| Topic | **[SOLID principles](learning/2026-09-26-solid-principles.md)** |
+| Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 44 of 110 |
-| Next | SOLID principles |
+| Curriculum position | 45 of 110 |
+| Next | Composition vs inheritance |
 
 ### Focus
 
-Bandingkan exception, result type, error code, retry, fallback, dan fail-fast.
+Pahami lima prinsip sebagai alat mengevaluasi perubahan, bukan aturan mekanis.
 
 ### Practical task
 
-Desain error flow untuk pemesanan yang gagal saat pembayaran.
+Temukan dua pelanggaran SOLID pada class service yang terlalu besar.
 
-[Open today's complete lesson →](learning/2026-09-25-error-handling-strategies.md)
+[Open today's complete lesson →](learning/2026-09-26-solid-principles.md)
 
 <!-- DAILY_LEARNING:END -->
 
