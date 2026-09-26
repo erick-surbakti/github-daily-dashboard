@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **45** |
-| Topic | **[SOLID principles](learning/2026-09-26-solid-principles.md)** |
+| Day | **46** |
+| Topic | **[Composition vs inheritance](learning/2026-09-27-composition-vs-inheritance.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 45 of 110 |
-| Next | Composition vs inheritance |
+| Curriculum position | 46 of 110 |
+| Next | Dependency injection |
 
 ### Focus
 
-Pahami lima prinsip sebagai alat mengevaluasi perubahan, bukan aturan mekanis.
+Bandingkan reuse perilaku, coupling, substitutability, dan hierarchy fragility.
 
 ### Practical task
 
-Temukan dua pelanggaran SOLID pada class service yang terlalu besar.
+Refactor hierarchy notification menjadi composition berbasis channel.
 
-[Open today's complete lesson →](learning/2026-09-26-solid-principles.md)
+[Open today's complete lesson →](learning/2026-09-27-composition-vs-inheritance.md)
 
 <!-- DAILY_LEARNING:END -->
 
