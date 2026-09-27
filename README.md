@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **46** |
-| Topic | **[Composition vs inheritance](learning/2026-09-27-composition-vs-inheritance.md)** |
+| Day | **47** |
+| Topic | **[Dependency injection](learning/2026-09-28-dependency-injection.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 46 of 110 |
-| Next | Dependency injection |
+| Curriculum position | 47 of 110 |
+| Next | Repository and service patterns |
 
 ### Focus
 
-Bandingkan reuse perilaku, coupling, substitutability, dan hierarchy fragility.
+Pahami inversion of control, constructor injection, testability, dan lifetime.
 
 ### Practical task
 
-Refactor hierarchy notification menjadi composition berbasis channel.
+Inject repository palsu ke service agar dapat diuji tanpa database.
 
-[Open today's complete lesson →](learning/2026-09-27-composition-vs-inheritance.md)
+[Open today's complete lesson →](learning/2026-09-28-dependency-injection.md)
 
 <!-- DAILY_LEARNING:END -->
 
