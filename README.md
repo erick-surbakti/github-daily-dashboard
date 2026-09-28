@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **47** |
-| Topic | **[Dependency injection](learning/2026-09-28-dependency-injection.md)** |
+| Day | **48** |
+| Topic | **[Repository and service patterns](learning/2026-09-29-repository-and-service-patterns.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 47 of 110 |
-| Next | Repository and service patterns |
+| Curriculum position | 48 of 110 |
+| Next | Factory and strategy patterns |
 
 ### Focus
 
-Pahami inversion of control, constructor injection, testability, dan lifetime.
+Pisahkan persistence concern dari business rules tanpa membuat abstraksi kosong.
 
 ### Practical task
 
-Inject repository palsu ke service agar dapat diuji tanpa database.
+Rancang boundary repository dan service untuk checkout.
 
-[Open today's complete lesson →](learning/2026-09-28-dependency-injection.md)
+[Open today's complete lesson →](learning/2026-09-29-repository-and-service-patterns.md)
 
 <!-- DAILY_LEARNING:END -->
 
