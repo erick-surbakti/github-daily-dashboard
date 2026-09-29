@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **48** |
-| Topic | **[Repository and service patterns](learning/2026-09-29-repository-and-service-patterns.md)** |
+| Day | **49** |
+| Topic | **[Factory and strategy patterns](learning/2026-09-30-factory-and-strategy-patterns.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 48 of 110 |
-| Next | Factory and strategy patterns |
+| Curriculum position | 49 of 110 |
+| Next | Observer and event-driven design |
 
 ### Focus
 
-Pisahkan persistence concern dari business rules tanpa membuat abstraksi kosong.
+Gunakan factory untuk creation dan strategy untuk perilaku yang dapat diganti.
 
 ### Practical task
 
-Rancang boundary repository dan service untuk checkout.
+Rancang beberapa metode perhitungan biaya pengiriman.
 
-[Open today's complete lesson →](learning/2026-09-29-repository-and-service-patterns.md)
+[Open today's complete lesson →](learning/2026-09-30-factory-and-strategy-patterns.md)
 
 <!-- DAILY_LEARNING:END -->
 
