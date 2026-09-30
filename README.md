@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **49** |
-| Topic | **[Factory and strategy patterns](learning/2026-09-30-factory-and-strategy-patterns.md)** |
+| Day | **50** |
+| Topic | **[Observer and event-driven design](learning/2026-10-01-observer-and-event-driven-design.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 49 of 110 |
-| Next | Observer and event-driven design |
+| Curriculum position | 50 of 110 |
+| Next | State machines |
 
 ### Focus
 
-Gunakan factory untuk creation dan strategy untuk perilaku yang dapat diganti.
+Pahami publisher, subscriber, coupling, delivery semantics, dan event ordering.
 
 ### Practical task
 
-Rancang beberapa metode perhitungan biaya pengiriman.
+Desain event OrderCreated dengan dua consumer.
 
-[Open today's complete lesson →](learning/2026-09-30-factory-and-strategy-patterns.md)
+[Open today's complete lesson →](learning/2026-10-01-observer-and-event-driven-design.md)
 
 <!-- DAILY_LEARNING:END -->
 
