@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **50** |
-| Topic | **[Observer and event-driven design](learning/2026-10-01-observer-and-event-driven-design.md)** |
+| Day | **51** |
+| Topic | **[State machines](learning/2026-10-02-state-machines.md)** |
 | Track | Software Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 50 of 110 |
-| Next | State machines |
+| Curriculum position | 51 of 110 |
+| Next | Unit vs integration vs end-to-end tests |
 
 ### Focus
 
-Pahami publisher, subscriber, coupling, delivery semantics, dan event ordering.
+Modelkan state, transition, guard, invalid transition, dan terminal state.
 
 ### Practical task
 
-Desain event OrderCreated dengan dua consumer.
+Buat state machine untuk status pembayaran.
 
-[Open today's complete lesson →](learning/2026-10-01-observer-and-event-driven-design.md)
+[Open today's complete lesson →](learning/2026-10-02-state-machines.md)
 
 <!-- DAILY_LEARNING:END -->
 
