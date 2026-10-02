@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **51** |
-| Topic | **[State machines](learning/2026-10-02-state-machines.md)** |
-| Track | Software Design |
+| Day | **52** |
+| Topic | **[Unit vs integration vs end-to-end tests](learning/2026-10-03-unit-vs-integration-vs-end-to-end-tests.md)** |
+| Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 51 of 110 |
-| Next | Unit vs integration vs end-to-end tests |
+| Curriculum position | 52 of 110 |
+| Next | Test doubles |
 
 ### Focus
 
-Modelkan state, transition, guard, invalid transition, dan terminal state.
+Bandingkan scope, speed, confidence, maintenance cost, dan failure diagnosis.
 
 ### Practical task
 
-Buat state machine untuk status pembayaran.
+Susun test pyramid untuk fitur login.
 
-[Open today's complete lesson →](learning/2026-10-02-state-machines.md)
+[Open today's complete lesson →](learning/2026-10-03-unit-vs-integration-vs-end-to-end-tests.md)
 
 <!-- DAILY_LEARNING:END -->
 
