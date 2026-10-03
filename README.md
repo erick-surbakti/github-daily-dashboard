@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **52** |
-| Topic | **[Unit vs integration vs end-to-end tests](learning/2026-10-03-unit-vs-integration-vs-end-to-end-tests.md)** |
+| Day | **53** |
+| Topic | **[Test doubles](learning/2026-10-04-test-doubles.md)** |
 | Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 52 of 110 |
-| Next | Test doubles |
+| Curriculum position | 53 of 110 |
+| Next | Testing boundaries and edge cases |
 
 ### Focus
 
-Bandingkan scope, speed, confidence, maintenance cost, dan failure diagnosis.
+Bedakan dummy, stub, fake, spy, dan mock serta risiko over-mocking.
 
 ### Practical task
 
-Susun test pyramid untuk fitur login.
+Pilih test double untuk payment gateway dan repository.
 
-[Open today's complete lesson →](learning/2026-10-03-unit-vs-integration-vs-end-to-end-tests.md)
+[Open today's complete lesson →](learning/2026-10-04-test-doubles.md)
 
 <!-- DAILY_LEARNING:END -->
 
