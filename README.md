@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **53** |
-| Topic | **[Test doubles](learning/2026-10-04-test-doubles.md)** |
+| Day | **54** |
+| Topic | **[Testing boundaries and edge cases](learning/2026-10-05-testing-boundaries-and-edge-cases.md)** |
 | Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 53 of 110 |
-| Next | Testing boundaries and edge cases |
+| Curriculum position | 54 of 110 |
+| Next | Property-based testing |
 
 ### Focus
 
-Bedakan dummy, stub, fake, spy, dan mock serta risiko over-mocking.
+Pelajari equivalence partition, boundary values, empty input, overflow, dan time zones.
 
 ### Practical task
 
-Pilih test double untuk payment gateway dan repository.
+Tulis kasus uji untuk diskon berdasarkan rentang umur.
 
-[Open today's complete lesson →](learning/2026-10-04-test-doubles.md)
+[Open today's complete lesson →](learning/2026-10-05-testing-boundaries-and-edge-cases.md)
 
 <!-- DAILY_LEARNING:END -->
 
