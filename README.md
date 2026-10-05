@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **54** |
-| Topic | **[Testing boundaries and edge cases](learning/2026-10-05-testing-boundaries-and-edge-cases.md)** |
+| Day | **55** |
+| Topic | **[Property-based testing](learning/2026-10-06-property-based-testing.md)** |
 | Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 54 of 110 |
-| Next | Property-based testing |
+| Curriculum position | 55 of 110 |
+| Next | Contract testing |
 
 ### Focus
 
-Pelajari equivalence partition, boundary values, empty input, overflow, dan time zones.
+Pahami invariant, generated inputs, shrinking, dan kapan contoh manual tidak cukup.
 
 ### Practical task
 
-Tulis kasus uji untuk diskon berdasarkan rentang umur.
+Tentukan invariant untuk fungsi sort atau currency conversion.
 
-[Open today's complete lesson →](learning/2026-10-05-testing-boundaries-and-edge-cases.md)
+[Open today's complete lesson →](learning/2026-10-06-property-based-testing.md)
 
 <!-- DAILY_LEARNING:END -->
 
