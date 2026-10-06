@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **55** |
-| Topic | **[Property-based testing](learning/2026-10-06-property-based-testing.md)** |
+| Day | **56** |
+| Topic | **[Contract testing](learning/2026-10-07-contract-testing.md)** |
 | Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 55 of 110 |
-| Next | Contract testing |
+| Curriculum position | 56 of 110 |
+| Next | Load and stress testing |
 
 ### Focus
 
-Pahami invariant, generated inputs, shrinking, dan kapan contoh manual tidak cukup.
+Validasi kesepakatan consumer-provider tanpa menjalankan seluruh sistem.
 
 ### Practical task
 
-Tentukan invariant untuk fungsi sort atau currency conversion.
+Rancang contract test antara checkout service dan payment service.
 
-[Open today's complete lesson →](learning/2026-10-06-property-based-testing.md)
+[Open today's complete lesson →](learning/2026-10-07-contract-testing.md)
 
 <!-- DAILY_LEARNING:END -->
 
