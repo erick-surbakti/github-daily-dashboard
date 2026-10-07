@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **56** |
-| Topic | **[Contract testing](learning/2026-10-07-contract-testing.md)** |
+| Day | **57** |
+| Topic | **[Load and stress testing](learning/2026-10-08-load-and-stress-testing.md)** |
 | Track | Testing |
 | Time box | 45–60 minutes |
-| Curriculum position | 56 of 110 |
-| Next | Load and stress testing |
+| Curriculum position | 57 of 110 |
+| Next | Authentication vs authorization |
 
 ### Focus
 
-Validasi kesepakatan consumer-provider tanpa menjalankan seluruh sistem.
+Bedakan expected load, spike, endurance, breakpoint, latency percentile, dan throughput.
 
 ### Practical task
 
-Rancang contract test antara checkout service dan payment service.
+Tentukan skenario uji untuk ticket sale dengan traffic mendadak.
 
-[Open today's complete lesson →](learning/2026-10-07-contract-testing.md)
+[Open today's complete lesson →](learning/2026-10-08-load-and-stress-testing.md)
 
 <!-- DAILY_LEARNING:END -->
 
