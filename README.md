@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **57** |
-| Topic | **[Load and stress testing](learning/2026-10-08-load-and-stress-testing.md)** |
-| Track | Testing |
+| Day | **58** |
+| Topic | **[Authentication vs authorization](learning/2026-10-09-authentication-vs-authorization.md)** |
+| Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 57 of 110 |
-| Next | Authentication vs authorization |
+| Curriculum position | 58 of 110 |
+| Next | Sessions vs JWT |
 
 ### Focus
 
-Bedakan expected load, spike, endurance, breakpoint, latency percentile, dan throughput.
+Bedakan pembuktian identitas dengan keputusan akses serta prinsip least privilege.
 
 ### Practical task
 
-Tentukan skenario uji untuk ticket sale dengan traffic mendadak.
+Rancang akses admin, editor, dan viewer untuk dashboard.
 
-[Open today's complete lesson →](learning/2026-10-08-load-and-stress-testing.md)
+[Open today's complete lesson →](learning/2026-10-09-authentication-vs-authorization.md)
 
 <!-- DAILY_LEARNING:END -->
 
