@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **58** |
-| Topic | **[Authentication vs authorization](learning/2026-10-09-authentication-vs-authorization.md)** |
+| Day | **59** |
+| Topic | **[Sessions vs JWT](learning/2026-10-10-sessions-vs-jwt.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 58 of 110 |
-| Next | Sessions vs JWT |
+| Curriculum position | 59 of 110 |
+| Next | OAuth 2.0 and OpenID Connect |
 
 ### Focus
 
-Bedakan pembuktian identitas dengan keputusan akses serta prinsip least privilege.
+Bandingkan revocation, storage, scaling, token size, rotation, dan security risk.
 
 ### Practical task
 
-Rancang akses admin, editor, dan viewer untuk dashboard.
+Pilih session atau JWT untuk web app internal dan public API.
 
-[Open today's complete lesson →](learning/2026-10-09-authentication-vs-authorization.md)
+[Open today's complete lesson →](learning/2026-10-10-sessions-vs-jwt.md)
 
 <!-- DAILY_LEARNING:END -->
 
