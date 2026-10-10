@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **59** |
-| Topic | **[Sessions vs JWT](learning/2026-10-10-sessions-vs-jwt.md)** |
+| Day | **60** |
+| Topic | **[OAuth 2.0 and OpenID Connect](learning/2026-10-11-oauth-2-0-and-openid-connect.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 59 of 110 |
-| Next | OAuth 2.0 and OpenID Connect |
+| Curriculum position | 60 of 110 |
+| Next | Password storage |
 
 ### Focus
 
-Bandingkan revocation, storage, scaling, token size, rotation, dan security risk.
+Pahami authorization code, PKCE, access token, refresh token, ID token, dan scopes.
 
 ### Practical task
 
-Pilih session atau JWT untuk web app internal dan public API.
+Jelaskan login Google dari browser sampai aplikasi menerima identitas.
 
-[Open today's complete lesson →](learning/2026-10-10-sessions-vs-jwt.md)
+[Open today's complete lesson →](learning/2026-10-11-oauth-2-0-and-openid-connect.md)
 
 <!-- DAILY_LEARNING:END -->
 
