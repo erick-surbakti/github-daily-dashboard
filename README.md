@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **60** |
-| Topic | **[OAuth 2.0 and OpenID Connect](learning/2026-10-11-oauth-2-0-and-openid-connect.md)** |
+| Day | **61** |
+| Topic | **[Password storage](learning/2026-10-12-password-storage.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 60 of 110 |
-| Next | Password storage |
+| Curriculum position | 61 of 110 |
+| Next | SQL injection |
 
 ### Focus
 
-Pahami authorization code, PKCE, access token, refresh token, ID token, dan scopes.
+Pelajari salt, Argon2/bcrypt, work factor, pepper, breach response, dan reset flow.
 
 ### Practical task
 
-Jelaskan login Google dari browser sampai aplikasi menerima identitas.
+Tulis checklist implementasi penyimpanan password.
 
-[Open today's complete lesson →](learning/2026-10-11-oauth-2-0-and-openid-connect.md)
+[Open today's complete lesson →](learning/2026-10-12-password-storage.md)
 
 <!-- DAILY_LEARNING:END -->
 
