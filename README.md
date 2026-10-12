@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **61** |
-| Topic | **[Password storage](learning/2026-10-12-password-storage.md)** |
+| Day | **62** |
+| Topic | **[SQL injection](learning/2026-10-13-sql-injection.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 61 of 110 |
-| Next | SQL injection |
+| Curriculum position | 62 of 110 |
+| Next | XSS and output encoding |
 
 ### Focus
 
-Pelajari salt, Argon2/bcrypt, work factor, pepper, breach response, dan reset flow.
+Pahami input-to-query flow, parameterized query, ORM pitfalls, dan least privilege.
 
 ### Practical task
 
-Tulis checklist implementasi penyimpanan password.
+Perbaiki query login yang dibangun melalui string concatenation.
 
-[Open today's complete lesson →](learning/2026-10-12-password-storage.md)
+[Open today's complete lesson →](learning/2026-10-13-sql-injection.md)
 
 <!-- DAILY_LEARNING:END -->
 
