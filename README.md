@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **62** |
-| Topic | **[SQL injection](learning/2026-10-13-sql-injection.md)** |
+| Day | **63** |
+| Topic | **[XSS and output encoding](learning/2026-10-14-xss-and-output-encoding.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 62 of 110 |
-| Next | XSS and output encoding |
+| Curriculum position | 63 of 110 |
+| Next | CSRF |
 
 ### Focus
 
-Pahami input-to-query flow, parameterized query, ORM pitfalls, dan least privilege.
+Bedakan stored, reflected, DOM XSS, context-aware encoding, CSP, dan sanitization.
 
 ### Practical task
 
-Perbaiki query login yang dibangun melalui string concatenation.
+Cari sink berbahaya pada contoh penggunaan innerHTML.
 
-[Open today's complete lesson →](learning/2026-10-13-sql-injection.md)
+[Open today's complete lesson →](learning/2026-10-14-xss-and-output-encoding.md)
 
 <!-- DAILY_LEARNING:END -->
 
