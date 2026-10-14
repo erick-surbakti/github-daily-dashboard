@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **63** |
-| Topic | **[XSS and output encoding](learning/2026-10-14-xss-and-output-encoding.md)** |
+| Day | **64** |
+| Topic | **[CSRF](learning/2026-10-15-csrf.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 63 of 110 |
-| Next | CSRF |
+| Curriculum position | 64 of 110 |
+| Next | CORS |
 
 ### Focus
 
-Bedakan stored, reflected, DOM XSS, context-aware encoding, CSP, dan sanitization.
+Pahami ambient credentials, SameSite cookie, CSRF token, Origin check, dan unsafe methods.
 
 ### Practical task
 
-Cari sink berbahaya pada contoh penggunaan innerHTML.
+Lindungi endpoint perubahan email berbasis cookie session.
 
-[Open today's complete lesson →](learning/2026-10-14-xss-and-output-encoding.md)
+[Open today's complete lesson →](learning/2026-10-15-csrf.md)
 
 <!-- DAILY_LEARNING:END -->
 
