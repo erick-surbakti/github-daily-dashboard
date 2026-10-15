@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **64** |
-| Topic | **[CSRF](learning/2026-10-15-csrf.md)** |
+| Day | **65** |
+| Topic | **[CORS](learning/2026-10-16-cors.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 64 of 110 |
-| Next | CORS |
+| Curriculum position | 65 of 110 |
+| Next | Secrets management |
 
 ### Focus
 
-Pahami ambient credentials, SameSite cookie, CSRF token, Origin check, dan unsafe methods.
+Pahami same-origin policy, preflight, allowed origins, credentials, dan common misconfiguration.
 
 ### Practical task
 
-Lindungi endpoint perubahan email berbasis cookie session.
+Konfigurasikan origin frontend tertentu tanpa wildcard.
 
-[Open today's complete lesson →](learning/2026-10-15-csrf.md)
+[Open today's complete lesson →](learning/2026-10-16-cors.md)
 
 <!-- DAILY_LEARNING:END -->
 
