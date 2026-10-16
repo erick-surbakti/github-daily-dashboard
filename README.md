@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **65** |
-| Topic | **[CORS](learning/2026-10-16-cors.md)** |
+| Day | **66** |
+| Topic | **[Secrets management](learning/2026-10-17-secrets-management.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 65 of 110 |
-| Next | Secrets management |
+| Curriculum position | 66 of 110 |
+| Next | Threat modeling |
 
 ### Focus
 
-Pahami same-origin policy, preflight, allowed origins, credentials, dan common misconfiguration.
+Pisahkan secret dari source code, gunakan rotation, scoped access, audit, dan environment injection.
 
 ### Practical task
 
-Konfigurasikan origin frontend tertentu tanpa wildcard.
+Pindahkan API key hardcoded ke secret store atau CI secret.
 
-[Open today's complete lesson →](learning/2026-10-16-cors.md)
+[Open today's complete lesson →](learning/2026-10-17-secrets-management.md)
 
 <!-- DAILY_LEARNING:END -->
 
