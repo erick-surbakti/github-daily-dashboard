@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **66** |
-| Topic | **[Secrets management](learning/2026-10-17-secrets-management.md)** |
+| Day | **67** |
+| Topic | **[Threat modeling](learning/2026-10-18-threat-modeling.md)** |
 | Track | Security |
 | Time box | 45–60 minutes |
-| Curriculum position | 66 of 110 |
-| Next | Threat modeling |
+| Curriculum position | 67 of 110 |
+| Next | Containers vs virtual machines |
 
 ### Focus
 
-Pisahkan secret dari source code, gunakan rotation, scoped access, audit, dan environment injection.
+Identifikasi asset, trust boundary, attacker, entry point, dan mitigasi dengan STRIDE.
 
 ### Practical task
 
-Pindahkan API key hardcoded ke secret store atau CI secret.
+Buat threat model singkat untuk file upload service.
 
-[Open today's complete lesson →](learning/2026-10-17-secrets-management.md)
+[Open today's complete lesson →](learning/2026-10-18-threat-modeling.md)
 
 <!-- DAILY_LEARNING:END -->
 
