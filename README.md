@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **67** |
-| Topic | **[Threat modeling](learning/2026-10-18-threat-modeling.md)** |
-| Track | Security |
+| Day | **68** |
+| Topic | **[Containers vs virtual machines](learning/2026-10-19-containers-vs-virtual-machines.md)** |
+| Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 67 of 110 |
-| Next | Containers vs virtual machines |
+| Curriculum position | 68 of 110 |
+| Next | Docker images and layers |
 
 ### Focus
 
-Identifikasi asset, trust boundary, attacker, entry point, dan mitigasi dengan STRIDE.
+Bandingkan kernel sharing, isolation, startup, image, portability, dan resource overhead.
 
 ### Practical task
 
-Buat threat model singkat untuk file upload service.
+Pilih container atau VM untuk tiga workload berbeda.
 
-[Open today's complete lesson →](learning/2026-10-18-threat-modeling.md)
+[Open today's complete lesson →](learning/2026-10-19-containers-vs-virtual-machines.md)
 
 <!-- DAILY_LEARNING:END -->
 
