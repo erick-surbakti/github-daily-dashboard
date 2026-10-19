@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **68** |
-| Topic | **[Containers vs virtual machines](learning/2026-10-19-containers-vs-virtual-machines.md)** |
+| Day | **69** |
+| Topic | **[Docker images and layers](learning/2026-10-20-docker-images-and-layers.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 68 of 110 |
-| Next | Docker images and layers |
+| Curriculum position | 69 of 110 |
+| Next | Docker networking |
 
 ### Focus
 
-Bandingkan kernel sharing, isolation, startup, image, portability, dan resource overhead.
+Pahami Dockerfile, layer cache, build context, multi-stage build, dan image size.
 
 ### Practical task
 
-Pilih container atau VM untuk tiga workload berbeda.
+Optimalkan Dockerfile aplikasi Node atau Python.
 
-[Open today's complete lesson →](learning/2026-10-19-containers-vs-virtual-machines.md)
+[Open today's complete lesson →](learning/2026-10-20-docker-images-and-layers.md)
 
 <!-- DAILY_LEARNING:END -->
 
