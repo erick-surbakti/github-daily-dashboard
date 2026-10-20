@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **69** |
-| Topic | **[Docker images and layers](learning/2026-10-20-docker-images-and-layers.md)** |
+| Day | **70** |
+| Topic | **[Docker networking](learning/2026-10-21-docker-networking.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 69 of 110 |
-| Next | Docker networking |
+| Curriculum position | 70 of 110 |
+| Next | CI vs CD |
 
 ### Focus
 
-Pahami Dockerfile, layer cache, build context, multi-stage build, dan image size.
+Pelajari bridge network, port publishing, DNS antarkontainer, host, dan volume.
 
 ### Practical task
 
-Optimalkan Dockerfile aplikasi Node atau Python.
+Hubungkan web app, API, dan database melalui Compose.
 
-[Open today's complete lesson →](learning/2026-10-20-docker-images-and-layers.md)
+[Open today's complete lesson →](learning/2026-10-21-docker-networking.md)
 
 <!-- DAILY_LEARNING:END -->
 
