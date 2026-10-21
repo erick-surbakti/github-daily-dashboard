@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **70** |
-| Topic | **[Docker networking](learning/2026-10-21-docker-networking.md)** |
+| Day | **71** |
+| Topic | **[CI vs CD](learning/2026-10-22-ci-vs-cd.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 70 of 110 |
-| Next | CI vs CD |
+| Curriculum position | 71 of 110 |
+| Next | Infrastructure as Code |
 
 ### Focus
 
-Pelajari bridge network, port publishing, DNS antarkontainer, host, dan volume.
+Bedakan continuous integration, delivery, deployment, quality gates, dan rollback.
 
 ### Practical task
 
-Hubungkan web app, API, dan database melalui Compose.
+Desain pipeline dari pull request sampai production.
 
-[Open today's complete lesson →](learning/2026-10-21-docker-networking.md)
+[Open today's complete lesson →](learning/2026-10-22-ci-vs-cd.md)
 
 <!-- DAILY_LEARNING:END -->
 
