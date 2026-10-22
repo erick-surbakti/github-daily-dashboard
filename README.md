@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **71** |
-| Topic | **[CI vs CD](learning/2026-10-22-ci-vs-cd.md)** |
+| Day | **72** |
+| Topic | **[Infrastructure as Code](learning/2026-10-23-infrastructure-as-code.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 71 of 110 |
-| Next | Infrastructure as Code |
+| Curriculum position | 72 of 110 |
+| Next | Observability pillars |
 
 ### Focus
 
-Bedakan continuous integration, delivery, deployment, quality gates, dan rollback.
+Pahami declarative state, plan, apply, drift, modules, dan state management.
 
 ### Practical task
 
-Desain pipeline dari pull request sampai production.
+Tulis struktur Terraform untuk satu web service.
 
-[Open today's complete lesson →](learning/2026-10-22-ci-vs-cd.md)
+[Open today's complete lesson →](learning/2026-10-23-infrastructure-as-code.md)
 
 <!-- DAILY_LEARNING:END -->
 
