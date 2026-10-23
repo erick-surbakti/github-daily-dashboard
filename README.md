@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **72** |
-| Topic | **[Infrastructure as Code](learning/2026-10-23-infrastructure-as-code.md)** |
+| Day | **73** |
+| Topic | **[Observability pillars](learning/2026-10-24-observability-pillars.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 72 of 110 |
-| Next | Observability pillars |
+| Curriculum position | 73 of 110 |
+| Next | SLI, SLO, and SLA |
 
 ### Focus
 
-Pahami declarative state, plan, apply, drift, modules, dan state management.
+Hubungkan logs, metrics, traces, context, correlation ID, dan actionable alerts.
 
 ### Practical task
 
-Tulis struktur Terraform untuk satu web service.
+Tentukan telemetry untuk endpoint checkout lambat.
 
-[Open today's complete lesson →](learning/2026-10-23-infrastructure-as-code.md)
+[Open today's complete lesson →](learning/2026-10-24-observability-pillars.md)
 
 <!-- DAILY_LEARNING:END -->
 
