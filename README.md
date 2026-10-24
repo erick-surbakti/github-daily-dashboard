@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **73** |
-| Topic | **[Observability pillars](learning/2026-10-24-observability-pillars.md)** |
+| Day | **74** |
+| Topic | **[SLI, SLO, and SLA](learning/2026-10-25-sli-slo-and-sla.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 73 of 110 |
-| Next | SLI, SLO, and SLA |
+| Curriculum position | 74 of 110 |
+| Next | Blue-green vs canary deployment |
 
 ### Focus
 
-Hubungkan logs, metrics, traces, context, correlation ID, dan actionable alerts.
+Bedakan indikator, target internal, kontrak eksternal, error budget, dan trade-off reliability.
 
 ### Practical task
 
-Tentukan telemetry untuk endpoint checkout lambat.
+Buat SLO availability dan latency untuk sebuah API.
 
-[Open today's complete lesson →](learning/2026-10-24-observability-pillars.md)
+[Open today's complete lesson →](learning/2026-10-25-sli-slo-and-sla.md)
 
 <!-- DAILY_LEARNING:END -->
 
