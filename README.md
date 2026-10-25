@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **74** |
-| Topic | **[SLI, SLO, and SLA](learning/2026-10-25-sli-slo-and-sla.md)** |
+| Day | **75** |
+| Topic | **[Blue-green vs canary deployment](learning/2026-10-26-blue-green-vs-canary-deployment.md)** |
 | Track | DevOps |
 | Time box | 45–60 minutes |
-| Curriculum position | 74 of 110 |
-| Next | Blue-green vs canary deployment |
+| Curriculum position | 75 of 110 |
+| Next | Horizontal vs vertical scaling |
 
 ### Focus
 
-Bedakan indikator, target internal, kontrak eksternal, error budget, dan trade-off reliability.
+Bandingkan traffic switch, incremental exposure, rollback speed, dan infrastructure cost.
 
 ### Practical task
 
-Buat SLO availability dan latency untuk sebuah API.
+Pilih strategi deployment untuk perubahan payment service.
 
-[Open today's complete lesson →](learning/2026-10-25-sli-slo-and-sla.md)
+[Open today's complete lesson →](learning/2026-10-26-blue-green-vs-canary-deployment.md)
 
 <!-- DAILY_LEARNING:END -->
 
