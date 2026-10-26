@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **75** |
-| Topic | **[Blue-green vs canary deployment](learning/2026-10-26-blue-green-vs-canary-deployment.md)** |
-| Track | DevOps |
+| Day | **76** |
+| Topic | **[Horizontal vs vertical scaling](learning/2026-10-27-horizontal-vs-vertical-scaling.md)** |
+| Track | Cloud |
 | Time box | 45–60 minutes |
-| Curriculum position | 75 of 110 |
-| Next | Horizontal vs vertical scaling |
+| Curriculum position | 76 of 110 |
+| Next | Serverless fundamentals |
 
 ### Focus
 
-Bandingkan traffic switch, incremental exposure, rollback speed, dan infrastructure cost.
+Bandingkan scale up, scale out, limits, cost, load distribution, dan state.
 
 ### Practical task
 
-Pilih strategi deployment untuk perubahan payment service.
+Rancang scaling untuk API stateless dengan traffic naik sepuluh kali.
 
-[Open today's complete lesson →](learning/2026-10-26-blue-green-vs-canary-deployment.md)
+[Open today's complete lesson →](learning/2026-10-27-horizontal-vs-vertical-scaling.md)
 
 <!-- DAILY_LEARNING:END -->
 
