@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **76** |
-| Topic | **[Horizontal vs vertical scaling](learning/2026-10-27-horizontal-vs-vertical-scaling.md)** |
+| Day | **77** |
+| Topic | **[Serverless fundamentals](learning/2026-10-28-serverless-fundamentals.md)** |
 | Track | Cloud |
 | Time box | 45–60 minutes |
-| Curriculum position | 76 of 110 |
-| Next | Serverless fundamentals |
+| Curriculum position | 77 of 110 |
+| Next | Queues and background jobs |
 
 ### Focus
 
-Bandingkan scale up, scale out, limits, cost, load distribution, dan state.
+Pahami function lifecycle, event triggers, cold start, limits, billing, dan lock-in.
 
 ### Practical task
 
-Rancang scaling untuk API stateless dengan traffic naik sepuluh kali.
+Pilih serverless atau container untuk image thumbnail service.
 
-[Open today's complete lesson →](learning/2026-10-27-horizontal-vs-vertical-scaling.md)
+[Open today's complete lesson →](learning/2026-10-28-serverless-fundamentals.md)
 
 <!-- DAILY_LEARNING:END -->
 
