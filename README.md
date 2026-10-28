@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **77** |
-| Topic | **[Serverless fundamentals](learning/2026-10-28-serverless-fundamentals.md)** |
+| Day | **78** |
+| Topic | **[Queues and background jobs](learning/2026-10-29-queues-and-background-jobs.md)** |
 | Track | Cloud |
 | Time box | 45–60 minutes |
-| Curriculum position | 77 of 110 |
-| Next | Queues and background jobs |
+| Curriculum position | 78 of 110 |
+| Next | Object storage vs block storage |
 
 ### Focus
 
-Pahami function lifecycle, event triggers, cold start, limits, billing, dan lock-in.
+Pahami producer, consumer, ack, retry, visibility timeout, DLQ, dan idempotency.
 
 ### Practical task
 
-Pilih serverless atau container untuk image thumbnail service.
+Desain proses pengiriman email setelah checkout.
 
-[Open today's complete lesson →](learning/2026-10-28-serverless-fundamentals.md)
+[Open today's complete lesson →](learning/2026-10-29-queues-and-background-jobs.md)
 
 <!-- DAILY_LEARNING:END -->
 
