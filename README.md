@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **78** |
-| Topic | **[Queues and background jobs](learning/2026-10-29-queues-and-background-jobs.md)** |
+| Day | **79** |
+| Topic | **[Object storage vs block storage](learning/2026-10-30-object-storage-vs-block-storage.md)** |
 | Track | Cloud |
 | Time box | 45–60 minutes |
-| Curriculum position | 78 of 110 |
-| Next | Object storage vs block storage |
+| Curriculum position | 79 of 110 |
+| Next | High availability |
 
 ### Focus
 
-Pahami producer, consumer, ack, retry, visibility timeout, DLQ, dan idempotency.
+Bandingkan access model, durability, latency, filesystem, dan use case.
 
 ### Practical task
 
-Desain proses pengiriman email setelah checkout.
+Pilih storage untuk database disk, video, backup, dan user upload.
 
-[Open today's complete lesson →](learning/2026-10-29-queues-and-background-jobs.md)
+[Open today's complete lesson →](learning/2026-10-30-object-storage-vs-block-storage.md)
 
 <!-- DAILY_LEARNING:END -->
 
