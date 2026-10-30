@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **79** |
-| Topic | **[Object storage vs block storage](learning/2026-10-30-object-storage-vs-block-storage.md)** |
+| Day | **80** |
+| Topic | **[High availability](learning/2026-10-31-high-availability.md)** |
 | Track | Cloud |
 | Time box | 45–60 minutes |
-| Curriculum position | 79 of 110 |
-| Next | High availability |
+| Curriculum position | 80 of 110 |
+| Next | CAP theorem |
 
 ### Focus
 
-Bandingkan access model, durability, latency, filesystem, dan use case.
+Pahami redundancy, failure domain, multi-zone, health checks, failover, dan RTO/RPO.
 
 ### Practical task
 
-Pilih storage untuk database disk, video, backup, dan user upload.
+Rancang layanan tetap hidup ketika satu availability zone gagal.
 
-[Open today's complete lesson →](learning/2026-10-30-object-storage-vs-block-storage.md)
+[Open today's complete lesson →](learning/2026-10-31-high-availability.md)
 
 <!-- DAILY_LEARNING:END -->
 
