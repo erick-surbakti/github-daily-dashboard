@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **80** |
-| Topic | **[High availability](learning/2026-10-31-high-availability.md)** |
-| Track | Cloud |
+| Day | **81** |
+| Topic | **[CAP theorem](learning/2026-11-01-cap-theorem.md)** |
+| Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 80 of 110 |
-| Next | CAP theorem |
+| Curriculum position | 81 of 110 |
+| Next | Consistency models |
 
 ### Focus
 
-Pahami redundancy, failure domain, multi-zone, health checks, failover, dan RTO/RPO.
+Pahami consistency, availability, partition tolerance, serta batas interpretasi CAP.
 
 ### Practical task
 
-Rancang layanan tetap hidup ketika satu availability zone gagal.
+Analisis pilihan saat network partition pada inventory service.
 
-[Open today's complete lesson →](learning/2026-10-31-high-availability.md)
+[Open today's complete lesson →](learning/2026-11-01-cap-theorem.md)
 
 <!-- DAILY_LEARNING:END -->
 
