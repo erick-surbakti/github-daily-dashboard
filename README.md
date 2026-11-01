@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **81** |
-| Topic | **[CAP theorem](learning/2026-11-01-cap-theorem.md)** |
+| Day | **82** |
+| Topic | **[Consistency models](learning/2026-11-02-consistency-models.md)** |
 | Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 81 of 110 |
-| Next | Consistency models |
+| Curriculum position | 82 of 110 |
+| Next | At-least-once delivery |
 
 ### Focus
 
-Pahami consistency, availability, partition tolerance, serta batas interpretasi CAP.
+Bandingkan strong, eventual, read-your-writes, monotonic reads, dan causal consistency.
 
 ### Practical task
 
-Analisis pilihan saat network partition pada inventory service.
+Pilih model untuk saldo bank, likes, dan product search.
 
-[Open today's complete lesson →](learning/2026-11-01-cap-theorem.md)
+[Open today's complete lesson →](learning/2026-11-02-consistency-models.md)
 
 <!-- DAILY_LEARNING:END -->
 
