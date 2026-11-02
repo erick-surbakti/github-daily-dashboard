@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **82** |
-| Topic | **[Consistency models](learning/2026-11-02-consistency-models.md)** |
+| Day | **83** |
+| Topic | **[At-least-once delivery](learning/2026-11-03-at-least-once-delivery.md)** |
 | Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 82 of 110 |
-| Next | At-least-once delivery |
+| Curriculum position | 83 of 110 |
+| Next | Distributed locks |
 
 ### Focus
 
-Bandingkan strong, eventual, read-your-writes, monotonic reads, dan causal consistency.
+Pahami duplicate message, lost acknowledgment, retry, deduplication, dan idempotent consumer.
 
 ### Practical task
 
-Pilih model untuk saldo bank, likes, dan product search.
+Buat consumer pembayaran aman terhadap pesan ganda.
 
-[Open today's complete lesson →](learning/2026-11-02-consistency-models.md)
+[Open today's complete lesson →](learning/2026-11-03-at-least-once-delivery.md)
 
 <!-- DAILY_LEARNING:END -->
 
