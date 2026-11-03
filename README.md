@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **83** |
-| Topic | **[At-least-once delivery](learning/2026-11-03-at-least-once-delivery.md)** |
+| Day | **84** |
+| Topic | **[Distributed locks](learning/2026-11-04-distributed-locks.md)** |
 | Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 83 of 110 |
-| Next | Distributed locks |
+| Curriculum position | 84 of 110 |
+| Next | Saga transactions |
 
 ### Focus
 
-Pahami duplicate message, lost acknowledgment, retry, deduplication, dan idempotent consumer.
+Pelajari lease, fencing token, clock issue, failure mode, dan kapan lock harus dihindari.
 
 ### Practical task
 
-Buat consumer pembayaran aman terhadap pesan ganda.
+Evaluasi lock untuk scheduled job yang berjalan pada banyak instance.
 
-[Open today's complete lesson →](learning/2026-11-03-at-least-once-delivery.md)
+[Open today's complete lesson →](learning/2026-11-04-distributed-locks.md)
 
 <!-- DAILY_LEARNING:END -->
 
