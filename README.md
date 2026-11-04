@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **84** |
-| Topic | **[Distributed locks](learning/2026-11-04-distributed-locks.md)** |
+| Day | **85** |
+| Topic | **[Saga transactions](learning/2026-11-05-saga-transactions.md)** |
 | Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 84 of 110 |
-| Next | Saga transactions |
+| Curriculum position | 85 of 110 |
+| Next | Event sourcing and CQRS |
 
 ### Focus
 
-Pelajari lease, fencing token, clock issue, failure mode, dan kapan lock harus dihindari.
+Bandingkan choreography, orchestration, compensating action, dan partial failure.
 
 ### Practical task
 
-Evaluasi lock untuk scheduled job yang berjalan pada banyak instance.
+Rancang saga order, payment, dan inventory.
 
-[Open today's complete lesson →](learning/2026-11-04-distributed-locks.md)
+[Open today's complete lesson →](learning/2026-11-05-saga-transactions.md)
 
 <!-- DAILY_LEARNING:END -->
 
