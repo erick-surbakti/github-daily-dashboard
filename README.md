@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **85** |
-| Topic | **[Saga transactions](learning/2026-11-05-saga-transactions.md)** |
+| Day | **86** |
+| Topic | **[Event sourcing and CQRS](learning/2026-11-06-event-sourcing-and-cqrs.md)** |
 | Track | Distributed Systems |
 | Time box | 45–60 minutes |
-| Curriculum position | 85 of 110 |
-| Next | Event sourcing and CQRS |
+| Curriculum position | 86 of 110 |
+| Next | Design a URL shortener |
 
 ### Focus
 
-Bandingkan choreography, orchestration, compensating action, dan partial failure.
+Pahami event log, projections, replay, command/query separation, dan complexity cost.
 
 ### Practical task
 
-Rancang saga order, payment, dan inventory.
+Modelkan perubahan saldo sebagai event.
 
-[Open today's complete lesson →](learning/2026-11-05-saga-transactions.md)
+[Open today's complete lesson →](learning/2026-11-06-event-sourcing-and-cqrs.md)
 
 <!-- DAILY_LEARNING:END -->
 
