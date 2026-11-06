@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **86** |
-| Topic | **[Event sourcing and CQRS](learning/2026-11-06-event-sourcing-and-cqrs.md)** |
-| Track | Distributed Systems |
+| Day | **87** |
+| Topic | **[Design a URL shortener](learning/2026-11-07-design-a-url-shortener.md)** |
+| Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 86 of 110 |
-| Next | Design a URL shortener |
+| Curriculum position | 87 of 110 |
+| Next | Design a notification system |
 
 ### Focus
 
-Pahami event log, projections, replay, command/query separation, dan complexity cost.
+Gabungkan ID generation, redirect, database, caching, analytics, dan abuse control.
 
 ### Practical task
 
-Modelkan perubahan saldo sebagai event.
+Buat estimasi traffic serta sketsa komponen utama.
 
-[Open today's complete lesson →](learning/2026-11-06-event-sourcing-and-cqrs.md)
+[Open today's complete lesson →](learning/2026-11-07-design-a-url-shortener.md)
 
 <!-- DAILY_LEARNING:END -->
 
