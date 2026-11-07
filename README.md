@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **87** |
-| Topic | **[Design a URL shortener](learning/2026-11-07-design-a-url-shortener.md)** |
+| Day | **88** |
+| Topic | **[Design a notification system](learning/2026-11-08-design-a-notification-system.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 87 of 110 |
-| Next | Design a notification system |
+| Curriculum position | 88 of 110 |
+| Next | Design a chat service |
 
 ### Focus
 
-Gabungkan ID generation, redirect, database, caching, analytics, dan abuse control.
+Pahami preference, template, queue, provider, retry, deduplication, dan delivery status.
 
 ### Practical task
 
-Buat estimasi traffic serta sketsa komponen utama.
+Desain email, SMS, dan push notification dari satu event.
 
-[Open today's complete lesson →](learning/2026-11-07-design-a-url-shortener.md)
+[Open today's complete lesson →](learning/2026-11-08-design-a-notification-system.md)
 
 <!-- DAILY_LEARNING:END -->
 
