@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **88** |
-| Topic | **[Design a notification system](learning/2026-11-08-design-a-notification-system.md)** |
+| Day | **89** |
+| Topic | **[Design a chat service](learning/2026-11-09-design-a-chat-service.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 88 of 110 |
-| Next | Design a chat service |
+| Curriculum position | 89 of 110 |
+| Next | Design a rate limiter |
 
 ### Focus
 
-Pahami preference, template, queue, provider, retry, deduplication, dan delivery status.
+Bahas connection management, message ordering, presence, storage, fan-out, dan offline delivery.
 
 ### Practical task
 
-Desain email, SMS, dan push notification dari satu event.
+Rancang flow pengiriman pesan satu-ke-satu.
 
-[Open today's complete lesson →](learning/2026-11-08-design-a-notification-system.md)
+[Open today's complete lesson →](learning/2026-11-09-design-a-chat-service.md)
 
 <!-- DAILY_LEARNING:END -->
 
