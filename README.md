@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **89** |
-| Topic | **[Design a chat service](learning/2026-11-09-design-a-chat-service.md)** |
+| Day | **90** |
+| Topic | **[Design a rate limiter](learning/2026-11-10-design-a-rate-limiter.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 89 of 110 |
-| Next | Design a rate limiter |
+| Curriculum position | 90 of 110 |
+| Next | Design a file upload service |
 
 ### Focus
 
-Bahas connection management, message ordering, presence, storage, fan-out, dan offline delivery.
+Tentukan algorithm, key, distributed state, atomic update, headers, dan failure behavior.
 
 ### Practical task
 
-Rancang flow pengiriman pesan satu-ke-satu.
+Desain limiter per-user serta per-IP.
 
-[Open today's complete lesson →](learning/2026-11-09-design-a-chat-service.md)
+[Open today's complete lesson →](learning/2026-11-10-design-a-rate-limiter.md)
 
 <!-- DAILY_LEARNING:END -->
 
