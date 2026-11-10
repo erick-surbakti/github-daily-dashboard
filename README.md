@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **90** |
-| Topic | **[Design a rate limiter](learning/2026-11-10-design-a-rate-limiter.md)** |
+| Day | **91** |
+| Topic | **[Design a file upload service](learning/2026-11-11-design-a-file-upload-service.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 90 of 110 |
-| Next | Design a file upload service |
+| Curriculum position | 91 of 110 |
+| Next | Design a search system |
 
 ### Focus
 
-Tentukan algorithm, key, distributed state, atomic update, headers, dan failure behavior.
+Bahas direct upload, signed URL, multipart, validation, scanning, metadata, dan CDN.
 
 ### Practical task
 
-Desain limiter per-user serta per-IP.
+Rancang upload video besar yang dapat dilanjutkan setelah putus.
 
-[Open today's complete lesson →](learning/2026-11-10-design-a-rate-limiter.md)
+[Open today's complete lesson →](learning/2026-11-11-design-a-file-upload-service.md)
 
 <!-- DAILY_LEARNING:END -->
 
