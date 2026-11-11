@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **91** |
-| Topic | **[Design a file upload service](learning/2026-11-11-design-a-file-upload-service.md)** |
+| Day | **92** |
+| Topic | **[Design a search system](learning/2026-11-12-design-a-search-system.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 91 of 110 |
-| Next | Design a search system |
+| Curriculum position | 92 of 110 |
+| Next | Design an audit log |
 
 ### Focus
 
-Bahas direct upload, signed URL, multipart, validation, scanning, metadata, dan CDN.
+Pahami indexing pipeline, inverted index, ranking, typo tolerance, freshness, dan pagination.
 
 ### Practical task
 
-Rancang upload video besar yang dapat dilanjutkan setelah putus.
+Rancang pencarian produk berdasarkan nama dan kategori.
 
-[Open today's complete lesson →](learning/2026-11-11-design-a-file-upload-service.md)
+[Open today's complete lesson →](learning/2026-11-12-design-a-search-system.md)
 
 <!-- DAILY_LEARNING:END -->
 
