@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **92** |
-| Topic | **[Design a search system](learning/2026-11-12-design-a-search-system.md)** |
+| Day | **93** |
+| Topic | **[Design an audit log](learning/2026-11-13-design-an-audit-log.md)** |
 | Track | System Design |
 | Time box | 45–60 minutes |
-| Curriculum position | 92 of 110 |
-| Next | Design an audit log |
+| Curriculum position | 93 of 110 |
+| Next | Big O complexity |
 
 ### Focus
 
-Pahami indexing pipeline, inverted index, ranking, typo tolerance, freshness, dan pagination.
+Bahas append-only data, actor, action, timestamp, integrity, retention, dan querying.
 
 ### Practical task
 
-Rancang pencarian produk berdasarkan nama dan kategori.
+Tentukan schema audit untuk perubahan role pengguna.
 
-[Open today's complete lesson →](learning/2026-11-12-design-a-search-system.md)
+[Open today's complete lesson →](learning/2026-11-13-design-an-audit-log.md)
 
 <!-- DAILY_LEARNING:END -->
 
