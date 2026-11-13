@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **93** |
-| Topic | **[Design an audit log](learning/2026-11-13-design-an-audit-log.md)** |
-| Track | System Design |
+| Day | **94** |
+| Topic | **[Big O complexity](learning/2026-11-14-big-o-complexity.md)** |
+| Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 93 of 110 |
-| Next | Big O complexity |
+| Curriculum position | 94 of 110 |
+| Next | Arrays vs linked lists |
 
 ### Focus
 
-Bahas append-only data, actor, action, timestamp, integrity, retention, dan querying.
+Analisis growth rate, worst/average case, time-space trade-off, dan hidden constants.
 
 ### Practical task
 
-Tentukan schema audit untuk perubahan role pengguna.
+Hitung kompleksitas tiga loop dan satu recursive function.
 
-[Open today's complete lesson →](learning/2026-11-13-design-an-audit-log.md)
+[Open today's complete lesson →](learning/2026-11-14-big-o-complexity.md)
 
 <!-- DAILY_LEARNING:END -->
 
