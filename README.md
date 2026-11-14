@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **94** |
-| Topic | **[Big O complexity](learning/2026-11-14-big-o-complexity.md)** |
+| Day | **95** |
+| Topic | **[Arrays vs linked lists](learning/2026-11-15-arrays-vs-linked-lists.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 94 of 110 |
-| Next | Arrays vs linked lists |
+| Curriculum position | 95 of 110 |
+| Next | Hash tables |
 
 ### Focus
 
-Analisis growth rate, worst/average case, time-space trade-off, dan hidden constants.
+Bandingkan contiguous memory, random access, insertion, cache locality, dan overhead.
 
 ### Practical task
 
-Hitung kompleksitas tiga loop dan satu recursive function.
+Pilih struktur untuk queue, indexed lookup, dan frequent middle insertion.
 
-[Open today's complete lesson →](learning/2026-11-14-big-o-complexity.md)
+[Open today's complete lesson →](learning/2026-11-15-arrays-vs-linked-lists.md)
 
 <!-- DAILY_LEARNING:END -->
 
