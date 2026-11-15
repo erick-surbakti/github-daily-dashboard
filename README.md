@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **95** |
-| Topic | **[Arrays vs linked lists](learning/2026-11-15-arrays-vs-linked-lists.md)** |
+| Day | **96** |
+| Topic | **[Hash tables](learning/2026-11-16-hash-tables.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 95 of 110 |
-| Next | Hash tables |
+| Curriculum position | 96 of 110 |
+| Next | Stacks and queues |
 
 ### Focus
 
-Bandingkan contiguous memory, random access, insertion, cache locality, dan overhead.
+Pahami hash function, collision, load factor, resizing, dan expected O(1).
 
 ### Practical task
 
-Pilih struktur untuk queue, indexed lookup, dan frequent middle insertion.
+Implementasikan map sederhana dengan separate chaining.
 
-[Open today's complete lesson →](learning/2026-11-15-arrays-vs-linked-lists.md)
+[Open today's complete lesson →](learning/2026-11-16-hash-tables.md)
 
 <!-- DAILY_LEARNING:END -->
 
