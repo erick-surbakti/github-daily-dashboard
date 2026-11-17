@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **97** |
-| Topic | **[Stacks and queues](learning/2026-11-17-stacks-and-queues.md)** |
+| Day | **98** |
+| Topic | **[Trees and graph traversal](learning/2026-11-18-trees-and-graph-traversal.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 97 of 110 |
-| Next | Trees and graph traversal |
+| Curriculum position | 98 of 110 |
+| Next | Binary search |
 
 ### Focus
 
-Pahami LIFO, FIFO, deque, serta aplikasi pada parsing, traversal, dan scheduling.
+Bandingkan tree, graph, DFS, BFS, visited set, dan shortest unweighted path.
 
 ### Practical task
 
-Gunakan stack untuk validasi bracket dan queue untuk BFS.
+Implementasikan BFS untuk mencari jarak minimum.
 
-[Open today's complete lesson →](learning/2026-11-17-stacks-and-queues.md)
+[Open today's complete lesson →](learning/2026-11-18-trees-and-graph-traversal.md)
 
 <!-- DAILY_LEARNING:END -->
 
