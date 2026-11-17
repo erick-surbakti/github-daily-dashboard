@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **96** |
-| Topic | **[Hash tables](learning/2026-11-16-hash-tables.md)** |
+| Day | **97** |
+| Topic | **[Stacks and queues](learning/2026-11-17-stacks-and-queues.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 96 of 110 |
-| Next | Stacks and queues |
+| Curriculum position | 97 of 110 |
+| Next | Trees and graph traversal |
 
 ### Focus
 
-Pahami hash function, collision, load factor, resizing, dan expected O(1).
+Pahami LIFO, FIFO, deque, serta aplikasi pada parsing, traversal, dan scheduling.
 
 ### Practical task
 
-Implementasikan map sederhana dengan separate chaining.
+Gunakan stack untuk validasi bracket dan queue untuk BFS.
 
-[Open today's complete lesson →](learning/2026-11-16-hash-tables.md)
+[Open today's complete lesson →](learning/2026-11-17-stacks-and-queues.md)
 
 <!-- DAILY_LEARNING:END -->
 
