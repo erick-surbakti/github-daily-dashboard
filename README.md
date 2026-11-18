@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **98** |
-| Topic | **[Trees and graph traversal](learning/2026-11-18-trees-and-graph-traversal.md)** |
+| Day | **99** |
+| Topic | **[Binary search](learning/2026-11-19-binary-search.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 98 of 110 |
-| Next | Binary search |
+| Curriculum position | 99 of 110 |
+| Next | Recursion and dynamic programming |
 
 ### Focus
 
-Bandingkan tree, graph, DFS, BFS, visited set, dan shortest unweighted path.
+Pahami invariant, sorted requirement, boundary bugs, lower bound, dan O(log n).
 
 ### Practical task
 
-Implementasikan BFS untuk mencari jarak minimum.
+Implementasikan pencarian elemen pertama yang memenuhi kondisi.
 
-[Open today's complete lesson →](learning/2026-11-18-trees-and-graph-traversal.md)
+[Open today's complete lesson →](learning/2026-11-19-binary-search.md)
 
 <!-- DAILY_LEARNING:END -->
 
