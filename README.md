@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **99** |
-| Topic | **[Binary search](learning/2026-11-19-binary-search.md)** |
+| Day | **100** |
+| Topic | **[Recursion and dynamic programming](learning/2026-11-20-recursion-and-dynamic-programming.md)** |
 | Track | Computer Science |
 | Time box | 45–60 minutes |
-| Curriculum position | 99 of 110 |
-| Next | Recursion and dynamic programming |
+| Curriculum position | 100 of 110 |
+| Next | Monolith vs microservices |
 
 ### Focus
 
-Pahami invariant, sorted requirement, boundary bugs, lower bound, dan O(log n).
+Bedakan overlapping subproblem, memoization, tabulation, state, dan transition.
 
 ### Practical task
 
-Implementasikan pencarian elemen pertama yang memenuhi kondisi.
+Ubah Fibonacci recursive menjadi memoized dan bottom-up.
 
-[Open today's complete lesson →](learning/2026-11-19-binary-search.md)
+[Open today's complete lesson →](learning/2026-11-20-recursion-and-dynamic-programming.md)
 
 <!-- DAILY_LEARNING:END -->
 
