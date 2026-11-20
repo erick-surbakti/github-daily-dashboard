@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **100** |
-| Topic | **[Recursion and dynamic programming](learning/2026-11-20-recursion-and-dynamic-programming.md)** |
-| Track | Computer Science |
+| Day | **101** |
+| Topic | **[Monolith vs microservices](learning/2026-11-21-monolith-vs-microservices.md)** |
+| Track | Architecture |
 | Time box | 45–60 minutes |
-| Curriculum position | 100 of 110 |
-| Next | Monolith vs microservices |
+| Curriculum position | 101 of 110 |
+| Next | Modular monolith |
 
 ### Focus
 
-Bedakan overlapping subproblem, memoization, tabulation, state, dan transition.
+Bandingkan deployment, coupling, data ownership, team boundaries, observability, dan operational cost.
 
 ### Practical task
 
-Ubah Fibonacci recursive menjadi memoized dan bottom-up.
+Pilih arsitektur untuk startup baru dengan tim lima engineer.
 
-[Open today's complete lesson →](learning/2026-11-20-recursion-and-dynamic-programming.md)
+[Open today's complete lesson →](learning/2026-11-21-monolith-vs-microservices.md)
 
 <!-- DAILY_LEARNING:END -->
 
