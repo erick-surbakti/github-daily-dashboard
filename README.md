@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **101** |
-| Topic | **[Monolith vs microservices](learning/2026-11-21-monolith-vs-microservices.md)** |
+| Day | **102** |
+| Topic | **[Modular monolith](learning/2026-11-22-modular-monolith.md)** |
 | Track | Architecture |
 | Time box | 45–60 minutes |
-| Curriculum position | 101 of 110 |
-| Next | Modular monolith |
+| Curriculum position | 102 of 110 |
+| Next | Event-driven architecture |
 
 ### Focus
 
-Bandingkan deployment, coupling, data ownership, team boundaries, observability, dan operational cost.
+Pahami module boundary, internal API, dependency direction, dan jalur evolusi.
 
 ### Practical task
 
-Pilih arsitektur untuk startup baru dengan tim lima engineer.
+Bagi aplikasi commerce menjadi modul tanpa memisah deployment.
 
-[Open today's complete lesson →](learning/2026-11-21-monolith-vs-microservices.md)
+[Open today's complete lesson →](learning/2026-11-22-modular-monolith.md)
 
 <!-- DAILY_LEARNING:END -->
 
