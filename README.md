@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **102** |
-| Topic | **[Modular monolith](learning/2026-11-22-modular-monolith.md)** |
+| Day | **103** |
+| Topic | **[Event-driven architecture](learning/2026-11-23-event-driven-architecture.md)** |
 | Track | Architecture |
 | Time box | 45–60 minutes |
-| Curriculum position | 102 of 110 |
-| Next | Event-driven architecture |
+| Curriculum position | 103 of 110 |
+| Next | API gateway and backend for frontend |
 
 ### Focus
 
-Pahami module boundary, internal API, dependency direction, dan jalur evolusi.
+Pelajari event, command, broker, schema evolution, replay, dan eventual consistency.
 
 ### Practical task
 
-Bagi aplikasi commerce menjadi modul tanpa memisah deployment.
+Desain event flow setelah order berhasil dibuat.
 
-[Open today's complete lesson →](learning/2026-11-22-modular-monolith.md)
+[Open today's complete lesson →](learning/2026-11-23-event-driven-architecture.md)
 
 <!-- DAILY_LEARNING:END -->
 
