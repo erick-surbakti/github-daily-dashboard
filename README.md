@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **103** |
-| Topic | **[Event-driven architecture](learning/2026-11-23-event-driven-architecture.md)** |
+| Day | **104** |
+| Topic | **[API gateway and backend for frontend](learning/2026-11-24-api-gateway-and-backend-for-frontend.md)** |
 | Track | Architecture |
 | Time box | 45–60 minutes |
-| Curriculum position | 103 of 110 |
-| Next | API gateway and backend for frontend |
+| Curriculum position | 104 of 110 |
+| Next | Git merge vs rebase |
 
 ### Focus
 
-Pelajari event, command, broker, schema evolution, replay, dan eventual consistency.
+Bandingkan centralized cross-cutting concerns dengan API khusus tiap client.
 
 ### Practical task
 
-Desain event flow setelah order berhasil dibuat.
+Rancang API untuk web dan mobile yang membutuhkan bentuk data berbeda.
 
-[Open today's complete lesson →](learning/2026-11-23-event-driven-architecture.md)
+[Open today's complete lesson →](learning/2026-11-24-api-gateway-and-backend-for-frontend.md)
 
 <!-- DAILY_LEARNING:END -->
 
