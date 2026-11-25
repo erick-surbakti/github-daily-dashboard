@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **104** |
-| Topic | **[API gateway and backend for frontend](learning/2026-11-24-api-gateway-and-backend-for-frontend.md)** |
-| Track | Architecture |
+| Day | **105** |
+| Topic | **[Git merge vs rebase](learning/2026-11-25-git-merge-vs-rebase.md)** |
+| Track | Engineering Practice |
 | Time box | 45–60 minutes |
-| Curriculum position | 104 of 110 |
-| Next | Git merge vs rebase |
+| Curriculum position | 105 of 110 |
+| Next | Code review that finds risk |
 
 ### Focus
 
-Bandingkan centralized cross-cutting concerns dengan API khusus tiap client.
+Pahami commit graph, history rewriting, conflict resolution, dan collaboration safety.
 
 ### Practical task
 
-Rancang API untuk web dan mobile yang membutuhkan bentuk data berbeda.
+Simulasikan merge dan rebase pada dua branch kecil.
 
-[Open today's complete lesson →](learning/2026-11-24-api-gateway-and-backend-for-frontend.md)
+[Open today's complete lesson →](learning/2026-11-25-git-merge-vs-rebase.md)
 
 <!-- DAILY_LEARNING:END -->
 
