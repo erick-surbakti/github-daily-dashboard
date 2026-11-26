@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **105** |
-| Topic | **[Git merge vs rebase](learning/2026-11-25-git-merge-vs-rebase.md)** |
+| Day | **106** |
+| Topic | **[Code review that finds risk](learning/2026-11-26-code-review-that-finds-risk.md)** |
 | Track | Engineering Practice |
 | Time box | 45–60 minutes |
-| Curriculum position | 105 of 110 |
-| Next | Code review that finds risk |
+| Curriculum position | 106 of 110 |
+| Next | Feature flags |
 
 ### Focus
 
-Pahami commit graph, history rewriting, conflict resolution, dan collaboration safety.
+Fokus pada correctness, security, maintainability, tests, dan context. Hindari komentar kosmetik berlebihan.
 
 ### Practical task
 
-Simulasikan merge dan rebase pada dua branch kecil.
+Review sebuah diff dan tulis tiga komentar yang actionable.
 
-[Open today's complete lesson →](learning/2026-11-25-git-merge-vs-rebase.md)
+[Open today's complete lesson →](learning/2026-11-26-code-review-that-finds-risk.md)
 
 <!-- DAILY_LEARNING:END -->
 
