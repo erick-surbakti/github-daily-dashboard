@@ -9,22 +9,22 @@ This repository answers one question each morning: **what useful technical conce
 
 | Field | Value |
 |---|---|
-| Day | **107** |
-| Topic | **[Feature flags](learning/2026-11-27-feature-flags.md)** |
+| Day | **108** |
+| Topic | **[Technical debt](learning/2026-11-28-technical-debt.md)** |
 | Track | Engineering Practice |
 | Time box | 45–60 minutes |
-| Curriculum position | 107 of 110 |
-| Next | Technical debt |
+| Curriculum position | 108 of 110 |
+| Next | Writing an ADR |
 
 ### Focus
 
-Pahami decoupled release, targeting, kill switch, cleanup, dan testing combinations.
+Bedakan deliberate debt, accidental complexity, interest, prioritization, dan measurable impact.
 
 ### Practical task
 
-Rancang rollout fitur baru untuk 5%, 25%, lalu 100% user.
+Pilih satu debt dan tulis alasan bisnis untuk memperbaikinya.
 
-[Open today's complete lesson →](learning/2026-11-27-feature-flags.md)
+[Open today's complete lesson →](learning/2026-11-28-technical-debt.md)
 
 <!-- DAILY_LEARNING:END -->
 
